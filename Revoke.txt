@@ -1,5 +1,4 @@
 
-||ppq.apple.com^
 ||axm-app.apple.com^
 ||ocsp.apple.com^
 ||ocsp2.apple.com^
