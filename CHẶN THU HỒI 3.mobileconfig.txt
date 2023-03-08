@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Inc//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>CHẶN THU HỒI 3</string>
+        <key>PayloadDescription</key>
+        <string>CHẶN THU HỒI 3</string>
+        <key>PayloadUUID</key>
+        <string>8643567787</string>
+        <key>PayloadIdentifier</key>
+ <string>3567788486</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>✌️</string>
+                </dict>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDisplayName</key>
+                <string>CHẶN THU HỒI 3</string>
+                <key>PayloadDescription</key>
+                <string>CHẶN THU HỒI 3</string>
+                <key>PayloadIdentifier</key>
+                <string>3577577543</string>
+                <key>PayloadUUID</key>
+                <string>9644556677</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
