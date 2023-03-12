@@ -16,6 +16,12 @@
 "iconURL": "https://github.com/Nguyenhuyhoan/icons/raw/main/trollstore.png",
 "versionDescription": "Kho IPA Ứng dụng"},
 
+{"name": "YTB REBORN",
+"version": "18.09.4.00000000000000000",
+"downloadURL": "https://dl.dropboxusercontent.com/s/eo2fyisnj8dvf30/YTB_REBORN_18.09.4.ipa?dl=0",
+"iconURL": "https://raw.githubusercontent.com/Nguyenhuyhoan/icons/main/Cercube.png",
+"versionDescription": "Gỡ lỗi đăng nhập - Tải video nhanh"},
+
 {"name": "YTBKiller Cracked",
 "version": "18.01.2.00000000000000000",
 "downloadURL": "https://dl.dropboxusercontent.com/s/c06wxql46guza2u/YouTube_18.01.2_Killer.ipa?dl=0",
@@ -39,18 +45,6 @@
 "downloadURL": "https://dl.dropboxusercontent.com/s/l2gvvfrgmrgzdkt/YTB_REBORN_18.06.6.ipa?dl=0",
 "iconURL": "https://raw.githubusercontent.com/Nguyenhuyhoan/icons/main/Cercube.png",
 "versionDescription": "Xoá Youtube Gốc Trước Khi Cài, Xem & Tải video"},
-
-{"name": "DLYouTube",
-"version": "18.07.5.0000000000000000",
-"downloadURL": "https://dl.dropboxusercontent.com/s/zk8yfpeo77yinqk/DLYouTube_18.07.5.ipa?dl=0",
-"iconURL": "https://github.com/Nguyenhuyhoan/icons/raw/main/YTB_DL.png",
-"versionDescription": "Xoá Youtube Gốc Trước Khi Cài"},
-
-{"name": "NSYouTube",
-"version": "18.07.5.0000000000000000",
-"downloadURL": "https://dl.dropboxusercontent.com/s/daxafh13joapo8n/NSYouTube_18.07.5.ipa?dl=0",
-"iconURL": "https://raw.githubusercontent.com/Nguyenhuyhoan/icons/main/Cercube.png",
-"versionDescription": "Xoá Youtube Gốc Trước Khi Cài"},
 
 {"name": "YouTube Reborn",
 "version": "18.05.2.0000000000000000",
@@ -306,6 +300,5 @@
 
 
 ]}
-
 
 
