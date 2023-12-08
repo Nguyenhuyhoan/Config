@@ -13,6 +13,7 @@
 <key>SupplementalMatchDomains</key>
 <array>
 <string>ocsp2.apple.com</string>
+<string>ocsp.apple.com</string>
 </array>
 </dict>
 <key>PayloadDisplayName</key>
