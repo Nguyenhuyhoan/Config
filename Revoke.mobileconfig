@@ -9,7 +9,9 @@
 <key>DNSSettings</key>
 <dict>
 <key>ServerAddresses</key>
-<array/>
+<array>
+<string>0.0.0.0</string>
+</array>
 <key>SupplementalMatchDomains</key>
 <array>
 <string>ocsp2.apple.com</string>
