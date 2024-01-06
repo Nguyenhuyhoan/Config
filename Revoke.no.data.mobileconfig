@@ -26,7 +26,7 @@
 </dict> 
 </array>
 <key>PayloadDisplayName</key>
-<string>Chặn Thu Hồi</string>
+<string>Chặn Thu Hồi Cho Wifi</string>
 <key>PayloadIdentifier</key>
 <string>AAAAB6d</string>
 <key>PayloadType</key>
@@ -38,7 +38,7 @@
 </dict>
 </array>
 <key>PayloadDisplayName</key>
-<string>Chặn Thu Hồi</string>
+<string>Chặn Thu Hồi Cho Wifi</string>
 <key>PayloadIdentifier</key>
 <string>AAAAA8d</string>
 <key>PayloadRemovalDisallowed</key>
