@@ -28,6 +28,11 @@
 <string>crl4.digicert.com</string>
 <string>ocsp.digicert.com</string>
 <string>ocsp.entrust.net</string>
+<string>crl.entrust.net</string>
+<string>crl3.digicert.com</string>
+<string>crl4.digicert.com</string>
+<string>ocsp.digicert.com</string>
+<string>ocsp.entrust.net</string>
 </array>
 </dict>
 <key>PayloadDisplayName</key>
