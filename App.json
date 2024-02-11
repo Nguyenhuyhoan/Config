@@ -40,6 +40,13 @@
 "versionDescription": "Kho IPA Ứng dụng - Kho deb"},
 
 {"name": "YouTube - uYou",
+"version": "19.05.5-3.0.1",
+"downloadURL": "https://dl.dropboxusercontent.com/scl/fi/1u3f5d688be7l805gstmo/YouTube_uYou_19.05.5.ipa.ipa?rlkey=kooehk096qxqs15y32z8exyfy&amp;dl=1",
+"iconURL": "https://raw.githubusercontent.com/Nguyenhuyhoan/icons/main/Cercube.png",
+"versionDescription": "- Đã Việt hoá cho uYou. \n=> Vào cài đặt của YouTube để bật: \n- Hiện chất lượng (..480..720..) và lựa chọn nhanh chất lượng video trong trình phát. \n - Nhấn lâu vào trình phát để tăng tốc chạy video 1,5 hoặc 2… lần, nhấn lâu lần nữa sẽ chạy tốc độ bình thường. (Cần tắt “Tốc độ video” của uYou, làm vậy để không hiện các nút “tốc độ video” xấu của uYou)."},
+
+
+{"name": "YouTube - uYou",
 "version": "18.32.2-3.0.1",
 "downloadURL": "https://dl.dropboxusercontent.com/s/208roltffkzgjkr2sw056/UYou.3.0.1.VH_18.32.2.ipa?rlkey=dr38ua3h578pvw5a7ovsq8a1x&dl=0",
 "iconURL": "https://raw.githubusercontent.com/Nguyenhuyhoan/icons/main/Cercube.png",
