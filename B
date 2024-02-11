@@ -41,7 +41,7 @@
 
 {"name": "YouTube - uYou",
 "version": "19.05.5-3.0.1",
-"downloadURL": "https://drive.google.com/file/d/1ZsYh_Vu7pQNGz6UO1wy-8NXUgRK5W3jt/view?usp=drivesdk",
+"downloadURL": "https://drive.google.com/uc?export=download&id=1ZsYh_Vu7pQNGz6UO1wy-8NXUgRK5W3jt",
 "iconURL": "https://raw.githubusercontent.com/Nguyenhuyhoan/icons/main/Cercube.png",
 "versionDescription": "- Đã Việt hoá cho uYou. \n=> Vào cài đặt của YouTube để bật: \n- Hiện chất lượng (..480..720..) và lựa chọn nhanh chất lượng video trong trình phát. \n - Nhấn lâu vào trình phát để tăng tốc chạy video 1,5 hoặc 2… lần, nhấn lâu lần nữa sẽ chạy tốc độ bình thường. (Cần tắt “Tốc độ video” của uYou, làm vậy để không hiện các nút “tốc độ video” xấu của uYou)."},
 
