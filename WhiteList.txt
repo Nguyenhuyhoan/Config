@@ -1,0 +1,37 @@
+
+//ess.apple.com
+
+comm-cohort.ess.apple.com
+
+axm-app.apple.com
+
+
+//chặn cập nhật ios
+
+
+gdmf.apple.com
+
+
+//Danh sách trắng trong chặn Ads
+
+
+@@||pagead2.googlesyndication.com^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
