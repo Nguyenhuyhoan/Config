@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict><key>PayloadContent</key>
+<dict>
+<key>PayloadContent</key>
 <array>
+
 <dict>
 <key>DNSSettings</key>
 <dict>
@@ -18,7 +20,27 @@
 </array>
 </dict>
 <key>PayloadDisplayName</key>
-<string>🌸🌼 Chặn Thu Hồi 🌼🌸</string>
+<string>🌼Chặn Thu Hồi</string>
+<key>PayloadIdentifier</key>
+<string>3467755466434566556</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>34677545654456667566</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>ServerAddresses</key>
+<array>
+<string>2a06:98c1:54::15:60e7</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>🌼Chặn Thu Hồi Và Quảng Cáo</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566</string>
 <key>PayloadType</key>
@@ -28,9 +50,10 @@
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict> 
+
 </array>
 <key>PayloadDisplayName</key>
-<string>🌸🌼 Chặn Thu Hồi 🌼🌸</string>
+<string>🌼Chặn Thu Hồi - Quảng Cáo</string>
 <key>PayloadDescription</key>
 <string>
 🌟 Lưu Ý:
@@ -38,7 +61,7 @@
 + Trước khi khởi động lại máy thì tắt hết mạng và bật chế độ máy bay để tránh rò rĩ mạng. (Vì khi khởi động lại máy nếu mạng đang bật, cấu hình chưa kịp hoạt động sẽ gây rò rĩ mạng, hậu quả là chứng chỉ bị thu hồi).
 
 🌟 Thông Tin Cấu Hình:
-+ Cấu hình chỉ có một chức năng duy nhất là chặn thu hồi, không chặn quảng cáo.
++ Có 2 DNS: "Chặn Thu Hồi" và "Chặn Thu Hồi Và Quảng Cáo", bạn chỉ cần chọn 1 trong 2 tuỳ theo nhu cầu. DNS "Chặn Thu Hồi" đở nóng máy hơn vì chỉ dùng máy chủ DNS khi cần thiết, DNS "Chặn Thu Hồi Và Quảng Cáo luôn dùng máy chủ DNS.
 + Cấu hình này hạn chế tối đa nóng máy hao pin vì đã loại bỏ Doh và Dot. (Doh và Dot  là hai dạng DNS mã hoá)
 
 </string>
