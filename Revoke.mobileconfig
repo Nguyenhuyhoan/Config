@@ -20,7 +20,7 @@
 </array>
 </dict>
 <key>PayloadDisplayName</key>
-<string>🌼Chặn Thu Hồi</string>
+<string>🌼Chặn Thu Hồi -OTA</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566556</string>
 <key>PayloadType</key>
@@ -40,7 +40,7 @@
 </array>
 </dict>
 <key>PayloadDisplayName</key>
-<string>🌼Chặn Thu Hồi Và Quảng Cáo</string>
+<string>🌼Chặn Thu Hồi - OTA -ADS</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566</string>
 <key>PayloadType</key>
@@ -53,7 +53,7 @@
 
 </array>
 <key>PayloadDisplayName</key>
-<string>🌼Chặn Thu Hồi - Quảng Cáo</string>
+<string>🌼Chặn Thu Hồi - OTA - ADS</string>
 <key>PayloadDescription</key>
 <string>
 🌟 Lưu Ý:
