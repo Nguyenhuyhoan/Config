@@ -15,9 +15,6 @@
 <key>SupplementalMatchDomains</key>
 <array>
 <string>apple.com</string>
-<string>entrust.net</string>
-<string>digicert.com</string>
-</array>
 </dict>
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA</string>
