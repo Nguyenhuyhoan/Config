@@ -10,6 +10,30 @@
 <dict>
 <key>ServerAddresses</key>
 <array>
+<string>2a06:98c1:54::15:8398</string>
+</array>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>apple.com</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>🌼Chặn Thu Hồi</string>
+<key>PayloadIdentifier</key>
+<string>346775546643456655666</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>3467754565445666756633</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>ServerAddresses</key>
+<array>
 <string>2a06:98c1:54::15:60e7</string>
 </array>
 <key>SupplementalMatchDomains</key>
@@ -62,7 +86,7 @@
 
 🌟 Thông Tin Cấu Hình:
 
-+ Có 2 DNS: "Chặn Thu Hồi - Cập Nhật Ios" và "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo", bạn chỉ cần chọn 1 trong 2 tuỳ theo nhu cầu. DNS "Chặn Thu Hồi - Cập Nhật Ios" đở nóng máy hơn vì chỉ dùng máy chủ DNS khi cần thiết, DNS "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo" luôn dùng máy chủ DNS.
++ Có 3 DNS: "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios" và "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo", bạn chỉ cần chọn 1 trong 3 tuỳ theo nhu cầu. Trong đó DNS "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios" đở nóng máy hơn vì chỉ dùng máy chủ DNS khi cần thiết, DNS "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo" luôn dùng máy chủ DNS.
 
 + Cấu hình này hạn chế tối đa nóng máy hao pin vì đã loại bỏ Doh và Dot. (Doh và Dot  là hai dạng DNS mã hoá)
 
@@ -79,4 +103,3 @@
 <integer>1</integer>
 </dict>
 </plist>
-
