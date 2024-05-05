@@ -15,6 +15,7 @@
 <key>SupplementalMatchDomains</key>
 <array>
 <string>apple.com</string>
+</array>
 </dict>
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA</string>
