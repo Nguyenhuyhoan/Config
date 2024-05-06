@@ -4,7 +4,6 @@
 <dict>
 <key>PayloadContent</key>
 <array>
-
 <dict>
 <key>DNSSettings</key>
 <dict>
@@ -28,7 +27,6 @@
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict> 
-
 <dict>
 <key>DNSSettings</key>
 <dict>
@@ -52,7 +50,6 @@
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict> 
-
 <dict>
 <key>DNSSettings</key>
 <dict>
@@ -72,22 +69,17 @@
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict> 
-
 </array>
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA - ADS</string>
 <key>PayloadDescription</key>
 <string>
 🌟 Lưu Ý:
-
 + Không dùng DNS hoặc VPN khác song song với DNS này khi chưa biết DNS và VPN đó có chức năng chặn thu hồi.
-
 + Trước khi khởi động lại máy thì tắt hết mạng và bật chế độ máy bay để tránh rò rĩ mạng. (Vì khi khởi động lại máy nếu mạng đang bật, cấu hình chưa kịp hoạt động sẽ gây rò rĩ mạng, hậu quả là chứng chỉ bị thu hồi).
 
 🌟 Thông Tin Cấu Hình:
-
 + Có 3 DNS: "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios" và "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo", bạn chỉ cần chọn 1 trong 3 tuỳ theo nhu cầu. Trong đó DNS "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios" đở nóng máy hơn vì chỉ dùng máy chủ DNS khi cần thiết, DNS "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo" luôn dùng máy chủ DNS.
-
 + Cấu hình này hạn chế tối đa nóng máy hao pin vì đã loại bỏ Doh và Dot. (Doh và Dot  là hai dạng DNS mã hoá)
 
 </string>
