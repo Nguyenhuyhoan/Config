@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -18,6 +19,8 @@
 </dict>
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi</string>
+<key>PayloadOrganization</key>
+<string>👍 Tiết Kiệm Pin - Mát Máy 👍</string>
 <key>PayloadIdentifier</key>
 <string>346775546643456655666</string>
 <key>PayloadType</key>
@@ -41,6 +44,8 @@
 </dict>
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA</string>
+<key>PayloadOrganization</key>
+<string>👍 Tiết Kiệm Pin - Mát Máy 👍</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566556</string>
 <key>PayloadType</key>
@@ -60,6 +65,8 @@
 </dict>
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA - ADS</string>
+<key>PayloadOrganization</key>
+<string>👎 Hao Pin - Nóng Máy 👎</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566</string>
 <key>PayloadType</key>
