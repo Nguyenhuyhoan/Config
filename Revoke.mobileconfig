@@ -20,7 +20,7 @@
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi</string>
 <key>PayloadOrganization</key>
-<string>👍 Tiết Kiệm Pin - Mát Máy 👍</string>
+<string>=> Tiết Kiệm Pin - Mát Máy 👍</string>
 <key>PayloadIdentifier</key>
 <string>346775546643456655666</string>
 <key>PayloadType</key>
@@ -45,7 +45,7 @@
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA</string>
 <key>PayloadOrganization</key>
-<string>👍 Tiết Kiệm Pin - Mát Máy 👍</string>
+<string>=> Tiết Kiệm Pin - Mát Máy 👍</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566556</string>
 <key>PayloadType</key>
@@ -66,7 +66,7 @@
 <key>PayloadDisplayName</key>
 <string>🌼Chặn Thu Hồi - OTA - ADS</string>
 <key>PayloadOrganization</key>
-<string>👎 Hao Pin - Nóng Máy 👎</string>
+<string>=> Hao Pin - Nóng Máy 👎</string>
 <key>PayloadIdentifier</key>
 <string>3467755466434566</string>
 <key>PayloadType</key>
