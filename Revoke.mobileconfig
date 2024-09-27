@@ -66,8 +66,8 @@
 + Trước khi khởi động lại máy thì tắt hết mạng và bật chế độ máy bay để tránh rò rĩ mạng. (Vì khi khởi động lại máy nếu mạng đang bật, cấu hình chưa kịp hoạt động sẽ gây rò rĩ mạng, hậu quả là chứng chỉ bị thu hồi).
 
 🌟 Thông Tin Cấu Hình DNS:
-+ Đã loại bỏ DNS "Chặn Thu Hồi - Cập Nhật Ios - Chặn Quảng Cáo" vì nó gây nóng máy, chỉ còn 2 DNS này👇
-+ Có 2 DNS: "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios", bạn chỉ cần chọn 1 trong 2 tuỳ theo nhu cầu.
++ Đã loại bỏ DNS "Chặn Thu Hồi - Cập Nhật IOS - Chặn Quảng Cáo" vì nó gây nóng máy, chỉ còn 2 DNS này👇
++ Có 2 DNS: "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật IOS", bạn chỉ cần chọn 1 trong 2 tuỳ theo nhu cầu.
 
 </string>
 <key>PayloadIdentifier</key>
