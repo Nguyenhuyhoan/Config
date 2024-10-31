@@ -1077,7 +1077,7 @@ var defaultTab = document.getElementById("tab1");
 defaultTab.click();
 <link rel="stylesheet" type="text/css" href="http://opamaaa.wap.sh/files/xqc-full.css" />
 <xt:auth skip="
-yyyyyyyyyyyyy" /> -->
+bbbbbbbb" /> -->
 <dict>
 <key>assets</key>
 <array>
@@ -1306,7 +1306,7 @@ yyyyyyyyyyyyy" /> -->
 <string>Esign Anbang</string>
 </dict>
 </dict>
-<!-- yyyyyyyyyyyyyyy{
+<!-- bbbbbbbb{
 
 background-image: url("
 flex-direction: column;
