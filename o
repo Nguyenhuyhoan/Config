@@ -477,12 +477,12 @@ align-items: center;
 <link rel="apple-touch-icon" sizes="180x180" href="/180.png">
 br />
 <p> <a href="https://www.facebook.com/profile.php?id=fyyy&mibextid=JRoKGi" style="text-decoration: none; color: #9900FF; font-size: 42px;">++ CREATED BY BINH MINH ++</a> </p> 
-AAAAAAAAAAAA--> <?xml version="1.0" encoding="UTF-8"?>
+xxxxxxxxxxxx--> <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 <key>items</key>
-<array> <!--AAAAAAAAAAAAA
+<array> <!--xxxxxxxxxxxx
 </h0>
 </div> <br />
 
@@ -1006,7 +1006,7 @@ defaultTab.className += " active";
 </script>
 
 <link rel="stylesheet" type="text/css" href="http://opamaaa.wap.sh/files/xqc-full.css" />
-<xt:BBBBBBBBBBBB" /> -->
+<xt:yyyyyyyyyyy" /> -->
 <dict>
 <key>assets</key>
 <array>
@@ -1235,7 +1235,7 @@ defaultTab.className += " active";
 <string>TrollX Anbang</string>
 </dict>
 </dict>
-<!-- BBBBBBBBBBBBB?body{background-image: url("https://raw.githubusercontent.com/Nguyenhuyhoan/Config/main/Backgroud.jpeg");
+<!-- yyyyyyyyyyyyy?body{background-image: url("https://raw.githubusercontent.com/Nguyenhuyhoan/Config/main/Backgroud.jpeg");
  
 display: flex;
 flex-direction: column;
@@ -1899,10 +1899,9 @@ VanBan = VanBan.replace("GitHub
     const owner = 'Nguyenhuyhoan';
     const repo = '';
     const filePath = fileName;
-    const content 
-CCCCCCCCCCCCC --> </array>
+    const content zzzzzzzzz --> </array>
 </dict>
-</plist><!--CCCCCCCCCCCCC
+</plist><!--zzzzzzzz
 btoa(unescape(encodeURIComponent(VanBan)));
 
     fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, {
