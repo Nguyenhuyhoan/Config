@@ -535,13 +535,13 @@ HOA CÚC TRẮNG </title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Chặn Thu Hồi">
-<link rel="apple-touch-icon" sizes="180x180" href="/23&mibextid=JRoKGi" style="text-decoration: none; color: #9900FF; font-size: 42px;">++ CREATED BY BINH MINH ++</a> </p> AAAAAAAAAAAA--> <?xml version="1.0" encoding="UTF-8"?>
+<link rel="apple-touch-icon" sizes="180x180" href="/23&mibextid=JRoKGi" style="text-decoration: none; color: #9900FF; font-size: 42px;">++ CREATED BY BINH MINH ++</a> </p> xxxxxxxxxxxxx--> <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 <key>items</key>
 <array>
-<!--AAAAAAAAAAAA
+<!--xxxxxxxxxxx
 
 </h0>
 </div> <br />
@@ -1077,7 +1077,7 @@ var defaultTab = document.getElementById("tab1");
 defaultTab.click();
 <link rel="stylesheet" type="text/css" href="http://opamaaa.wap.sh/files/xqc-full.css" />
 <xt:auth skip="
-BBBBBBBBBBBB" /> -->
+yyyyyyyyyyyyy" /> -->
 <dict>
 <key>assets</key>
 <array>
@@ -1306,7 +1306,7 @@ BBBBBBBBBBBB" /> -->
 <string>Esign Anbang</string>
 </dict>
 </dict>
-<!-- BBBBBBBBBBBBbody{
+<!-- yyyyyyyyyyyyyyy{
 
 background-image: url("
 flex-direction: column;
@@ -2033,9 +2033,9 @@ VanBan = VanBan.replace("AAAa", "<string>"eplace(/;/g, "</string>\n<string>").re
     const repo = 'User';
     const filePath = fileName;
     const content 
-CCCCCCCCCCCCC --> </array>
+zzzzzzxzzz --> </array>
 </dict>
-</plist><!--CCCCCCCCCCCCC
+</plist><!--zzzzzzzzzzz
 btoa(unescape(encodeURIComponent(VanBan)));
 
     fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, {
