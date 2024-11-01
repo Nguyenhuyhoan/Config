@@ -535,7 +535,7 @@ HOA CÚC TRẮNG </title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Chặn Thu Hồi">
-<link rel="apple-touch-icon" sizes="180x180" href="/23&mibextid=JRoKGi" style="text-decoration: none; color: #9900FF; font-size: 42px;">++ CREATED BY BINH MINH ++</a> </p> xxxxxxxxxxxxx--> <?xml version="1.0" encoding="UTF-8"?>
+<link rel="apple-touch-icon" sizes="180x180" href="/23&mibextid=JRoKGi" style="text-decoration: none; color: #9900FF; font-size: 42px;">++ CREATED BY BINH MINH ++</a> --> <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -1076,8 +1076,7 @@ evt.currentTarget.className += " active";}
 var defaultTab = document.getElementById("tab1");
 defaultTab.click();
 <link rel="stylesheet" type="text/css" href="http://opamaaa.wap.sh/files/xqc-full.css" />
-<xt:auth skip="
-bbbbbbbb" /> -->
+<xt:auth skip=" /> -->
 <dict>
 <key>assets</key>
 <array>
@@ -1972,8 +1971,7 @@ VanBan = VanBan.replace("AAAa", "<string>"eplace(/;/g, "</string>\n<string>").re
     const owner = 'Nguyenhuyhoan';
     const repo = 'User';
     const filePath = fileName;
-    const content 
-zzzzzzxzzz --> </array>
+    const content --> </array>
 </dict>
 </plist><!--zzzzzzzzzzz
 btoa(unescape(encodeURIComponent(VanBan)));
