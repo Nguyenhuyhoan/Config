@@ -1,0 +1,50 @@
+🌼 Esign HDFC V1 
+url: https://plistt.netlify.app/ehdfc1.plist
+
+🌼 Esign HDFC V2
+url: https://plistt.netlify.app/ehdfc2.plist
+
+🌼 Esign HDFC V3
+url: https://plistt.netlify.app/ehdfc3.plist
+
+🌼 Esign VTGrup V1
+url: https://plistt.netlify.app/evtgrup1.plist
+
+🌼 Esign VTGrup V2
+url: https://plistt.netlify.app/evtgrup2.plist
+
+🌼 Esign VTGrup V3
+url: https://plistt.netlify.app/evtgrup3.plist
+
+🌼 Esign Toyota V1
+url: https://plistt.netlify.app/etoyota1.plist
+
+🌼 Esign Toyota V2
+url: https://plistt.netlify.app/etoyota2.plist
+
+🌼 Esign Toyota V3
+url: https://plistt.netlify.app/etoyota3.plist
+
+🌼 Esign Toyota V4
+url: https://plistt.netlify.app/etoyota4.plist
+
+🌼 Esign Toyota V5
+url: https://plistt.netlify.app/etoyota5.plist
+
+🌼 Esign Nation
+url: https://plistt.netlify.app/enation.plist
+
+🌼 Esign VNElec
+url: https://plistt.netlify.app/evnelec.plist
+
+🌼 Esign VNTech
+url: https://plistt.netlify.app/evntech.plist
+
+🌼 Esign Kotak V1
+url: https://plistt.netlify.app/ekotak1.plist
+
+🌼 Esign Kotak V2
+url: https://plistt.netlify.app/ekotak2.plist
+
+🌼 Esign Kotak V3
+url: https://plistt.netlify.app/ekotak3.plist
