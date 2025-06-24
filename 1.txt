@@ -1,7 +1,7 @@
 {
-    "today": 0,
-    "total": 0,
-    "last_reset_timestamp": 0,
-    "last_visit_today": 0,
-    "last_visit_today_formatted": "Chưa có"
+  "today": 1,
+  "total": 1,
+  "last_reset_timestamp": 1750732533970,
+  "last_visit_today": 1750732533970,
+  "last_visit_today_formatted": "09:35:33, 24/06/2025"
 }
