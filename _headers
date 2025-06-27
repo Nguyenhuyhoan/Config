@@ -1,5 +1,2 @@
-/esign.txt
-  Access-Control-Allow-Origin: *
-
-/chungchi.txt
-  Access-Control-Allow-Origin: *
+Content-Type: application/x-apple-aspen-config
+Content-Disposition: inline; filename="Revoke.mobileconfig"
