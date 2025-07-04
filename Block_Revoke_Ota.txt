@@ -9,7 +9,6 @@
 ||comm-main.ess.apple.com^
 ||comm-cohort.ess.apple.com^
 ||axm-app.apple.com^
-||digicert.com^
 
 ||gdmf.apple.com^
 ||appldnld.apple.com^
