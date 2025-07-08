@@ -1,5 +1,9 @@
 ||ocsp.apple.com^
+||ocsp1.apple.com^
 ||ocsp2.apple.com^
+||ocsp3.apple.com^
+||ocsp4.apple.com^
+||ocsp5.apple.com^
 ||certs.apple.com^
 ||crl.apple.com^
 ||crls.apple.com^
