@@ -1,4 +1,4 @@
-| ||ocsp.apple.com^
+||ocsp.apple.com^
 ||ocsp1.apple.com^
 ||ocsp2.apple.com^
 ||ocsp3.apple.com^
