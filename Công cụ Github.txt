@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>HOA CÚC TRẮNG - Modern UI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Riêng Mình">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<script>
+const GITHUB_TOKEN = '💹TOKENGITHUB💹';
+const GITHUB_USER = '💹USER💹';
+</script>
+
+<style>
+:root {
+--primary-white: #FFFFFF;
+--off-white-light: #F8F9FA;
+--off-white-medium: #E9ECEF;
+--accent-color: #007bff;
+--secondary-color: #ff6f61;
+--tertiary-color: #6f42c1;
+--custom-green-color: #28a745;
+--background-gradient: linear-gradient(to right, #f3e0ff, #e0f7ff);
+--border-radius: 15px;
+--box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+--text-color-dark: #343A40;
+--text-color-light: #6C757D;
+--color-pink: #ff00ff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+background: var(--background-gradient);
+color: var(--text-color-dark);
+line-height: 1.6;
+overflow-x: hidden;
+}
+.site-header {
+display: flex; justify-content: center; align-items: center; padding: 15px 14px;
+width: 98%; max-width: 98%; margin: 10px auto; min-height: 60px;
+background-color: var(--color-pink); border-radius: var(--border-radius);
+box-shadow: 0 8px 20px rgba(255, 0, 255, 0.25);
+}
+.site-header h1 { color: var(--primary-white); font-size: 1.5em; }
+main { padding: 0 10px; max-width: 98%; margin: 15px auto; }
+footer { text-align: center; padding: 20px; margin-top: 40px; }
+.tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 5px; border-bottom: 1px solid var(--off-white-medium); padding-bottom: 5px; }
+.tab {
+padding: 12px 10px; cursor: pointer; border: 2px solid var(--off-white-medium); background-color: var(--primary-white);
+border-radius: 10px; font-size: 1.2em;
+font-weight: 600; transition: all 0.3s ease; text-align: center;
+}
+.tab:hover { transform: translateY(-3px); background-color: var(--off-white-light); }
+.tab.active { transform: translateY(-1px); }
+.tab[data-tab="1"], .tab[data-tab="5"] { color: var(--color-pink); box-shadow: 0 10px 20px rgba(255, 0, 255, 0.25), 0 6px 6px rgba(255, 0, 255, 0.2); }
+.tab[data-tab="2"], .tab[data-tab="6"] { color: var(--tertiary-color); box-shadow: 0 10px 20px rgba(111, 66, 193, 0.25), 0 6px 6px rgba(111, 66, 193, 0.2); }
+.tab[data-tab="3"], .tab[data-tab="7"] { color: var(--accent-color); box-shadow: 0 10px 20px rgba(0, 123, 255, 0.25), 0 6px 6px rgba(0, 123, 255, 0.2); }
+.tab[data-tab="4"], .tab[data-tab="8"] { color: var(--custom-green-color); box-shadow: 0 10px 20px rgba(40, 167, 69, 0.25), 0 6px 6px rgba(40, 167, 69, 0.2); }
+.tab[data-tab="1"].active, .tab[data-tab="5"].active { background-color: var(--color-pink); border-color: #e600e6; color: var(--primary-white); }
+.tab[data-tab="2"].active, .tab[data-tab="6"].active { background-color: var(--tertiary-color); border-color: #5a379b; color: var(--primary-white); }
+.tab[data-tab="3"].active, .tab[data-tab="7"].active { background-color: var(--accent-color); border-color: #3395ff; color: var(--primary-white); }
+.tab[data-tab="4"].active, .tab[data-tab="8"].active { background-color: var(--custom-green-color); border-color: #32c453; color: var(--primary-white); }
+@media (max-width: 480px) { .tab { font-size: 1em; padding: 10px 8px; } }
+.content { display: none; animation: fadeIn 0.5s ease; text-align: left; }
+.content.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.dow, button, a.button {
+display: inline-flex; align-items: center; justify-content: center; padding: 12px 25px; background-color: var(--color-pink);
+color: var(--primary-white) !important; border: none; border-radius: 10px; box-shadow: 0 5px 15px rgba(255, 0, 255, 0.25);
+font-weight: 600; font-size: 1em; text-decoration: none; cursor: pointer; transition: all 0.25s ease-out;
+margin: 10px 0; width: 100%; text-align: center;
+}
+.dow:hover, button:hover, a.button:hover { transform: translateY(-3px); background-color: #e600e6; box-shadow: 0 8px 20px rgba(255, 0, 255, 0.3); }
+.dow:disabled, button:disabled { background-color: var(--text-color-light); cursor: not-allowed; transform: none; box-shadow: none; }
+.btn-secondary { background-color: var(--accent-color); }
+.btn-secondary:hover { background-color: #0069d9; }
+.button-group { display: flex; gap: 10px; align-items: center; }
+.button-group > .repo-selector-js { flex-grow: 1; }
+.input, textarea, input[type="text"], input[type="file"], select {
+width: 100%; padding: 12px 15px; background-color: var(--primary-white); color: var(--accent-color); border: 1px solid var(--off-white-medium);
+border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 123, 255, 0.2), 0 6px 6px rgba(0, 123, 255, 0.15);
+font-size: 1.05em;
+margin: 5px 0 15px 0; transition: border-color 0.3s, box-shadow 0.3s;
+-webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.input:focus, textarea:focus, input[type="text"]:focus, select:focus { outline: none; border-color: var(--color-pink); box-shadow: 0 0 0 3px rgba(255, 0, 255, 0.25), 0 10px 20px rgba(0, 123, 255, 0.2), 0 6px 6px rgba(0, 123, 255, 0.15); }
+select {
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+background-repeat: no-repeat; background-position: right 1rem center; background-size: 1.2em; padding-right: 2.5rem;
+}
+.input4 { height: 200px; resize: vertical; }
+.input5 { min-height: 150px; height: auto; overflow-y: auto; }
+.input7 { height: 350px; resize: vertical; }
+.centered-selector { width: calc(70% + 80px) !important; margin-left: auto; margin-right: auto; display: block; }
+p { color: var(--color-pink); font-size: 15px; font-weight: bold; text-align: center; }
+.small-text { font-size: 0.85em; color: var(--text-color-light); text-align: center; font-weight: normal; }
+.file-browser-container {
+height: 350px;
+overflow-y: auto;
+padding: 10px;
+background-color: var(--off-white-light);
+border-radius: 10px;
+margin-bottom: 15px;
+}
+.list-item {
+padding: 4px 10px; border-radius: 8px; margin-bottom: 2px; font-size: 1em;
+transition: background-color 0.2s, color 0.2s; color: var(--accent-color); font-weight: 500;
+cursor: pointer; display: flex; align-items: center; gap: 8px;
+}
+.list-item:hover { background-color: var(--off-white-medium); }
+.list-item.active { background-color: var(--accent-color); color: var(--primary-white); font-weight: bold; }
+.list-item.folder { font-weight: bold; }
+.list-item label { cursor: pointer; flex-grow: 1; }
+.breadcrumbs { margin-bottom: 10px; font-weight: bold; font-size: 1.1em; word-break: break-all; }
+.breadcrumbs a { text-decoration: none; color: #007bff; }
+.breadcrumbs a:hover { text-decoration: underline; }
+#notification-container {
+position: fixed; top: 20px; right: 20px;
+z-index: 3000; width: 90%; max-width: 350px;
+}
+.notification {
+padding: 15px; margin-bottom: 10px; border-radius: 10px;
+color: var(--primary-white); box-shadow: var(--box-shadow);
+opacity: 0; transform: translateY(-20px);
+animation: fadeInSlideDown 0.5s forwards, fadeOut 0.5s 4.5s forwards;
+}
+.notification.success { background-color: var(--custom-green-color); }
+.notification.error { background-color: var(--secondary-color); }
+.notification.info { background-color: var(--accent-color); }
+@keyframes fadeInSlideDown { to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeOut { to { opacity: 0; transform: translateY(-20px); } }
+.progress-bar-container {
+width: 100%; background-color: var(--off-white-medium); border-radius: 10px;
+overflow: hidden; margin: 10px 0;
+}
+.progress-bar {
+width: 0; height: 10px; background-color: var(--accent-color);
+transition: width 0.3s ease-in-out;
+}
+</style>
+</head>
+<body>
+<div class="site-header">
+<h1>CÔNG CỤ GITHUB</h1>
+</div>
+<main>
+<div class="tabs">
+<div class="tab active" onclick="openTab(event, 'tab1')" data-tab="1">Tạo plist</div>
+<div class="tab" onclick="openTab(event, 'tab2')" data-tab="2">Tạo file</div>
+<div class="tab" onclick="openTab(event, 'tab3')" data-tab="3">Sửa TXT</div>
+<div class="tab" onclick="openTab(event, 'tab4')" data-tab="4">Úp Github</div>
+<div class="tab" onclick="openTab(event, 'tab5')" data-tab="5">Dow Github</div>
+<div class="tab" onclick="openTab(event, 'tab6')" data-tab="6">Xoá Tệp</div>
+<div class="tab" onclick="openTab(event, 'tab7')" data-tab="7">Bỏ Dấu</div>
+<div class="tab" onclick="openTab(event, 'tab8')" data-tab="8">Dọn Dẹp Mã</div>
+</div>
+<div class="content active" id="tab1">
+<input type="text" id="plist_appName" class="input" placeholder="Tên App">
+<input type="text" id="plist_bundleId" class="input" placeholder="Bundle ID">
+<input type="text" id="plist_ipaUrl" class="input" placeholder="Link IPA">
+<input type="text" id="plist_version" class="input" placeholder="Phiên Bản IPA">
+<input type="text" id="plist_fileName" class="input" placeholder="Tên Plist (ví dụ: app.plist)">
+<label for="repoSelector_tab1">Chọn Kho Chứa (Repo):</label>
+<select id="repoSelector_tab1" class="input repo-selector-js"></select>
+<button id="create-plist-btn" class="dow">Tạo Link</button>
+<div id="plist_resultContainer"></div>
+</div>
+<div class="content" id="tab2">
+<label for="ghCreator_RepoSelector">Chọn Kho Chứa (Repo):</label>
+<select id="ghCreator_RepoSelector" class="input centered-selector repo-selector-js"></select>
+<input class="input" type="text" id="ghCreator_PathInput" placeholder="ví dụ: new.txt hoặc folder/new.txt">
+<textarea class="input4" id="ghCreator_ContentInput" placeholder="Nhập Nội Dung"></textarea>
+<button id="ghCreator_SubmitButton" class="dow">Tạo File</button>
+</div>
+<div class="content" id="tab3">
+<select id="repo-selector-editor" class="input repo-selector-js"></select>
+<button id="reload-editor" class="dow">Load Lại</button>
+<div id="editor-breadcrumbs" class="breadcrumbs"></div>
+<div id="editor-file-list" class="file-browser-container centered-selector"></div>
+<div id="editor-view" style="display: none;">
+<p id="editing-filename" style="text-align: left; font-size: 1.1em;"></p>
+<textarea class="input7" id="editor-textarea"></textarea>
+<button id="editor-update-btn" class="dow">Cập nhật File</button>
+</div>
+</div>
+<div class="content" id="tab4">
+<select id="repo-selector-upload" class="input repo-selector-js"></select>
+<button id="reload-upload" class="dow">Load Lại</button>
+<div id="upload-breadcrumbs" class="breadcrumbs"></div>
+<div id="upload-folder-browser" class="file-browser-container centered-selector"></div>
+<input type="file" id="fileInput" multiple>
+<div id="upload-progress-container"></div>
+<button id="upload-button" class="dow">Tải Lên</button>
+</div>
+<div class="content" id="tab5">
+<select id="repo-selector-download" class="input repo-selector-js"></select>
+<button id="reload-download" class="dow">Load Lại</button>
+<div id="download-breadcrumbs" class="breadcrumbs"></div>
+<div id="download-file-list" class="file-browser-container centered-selector"></div>
+<button id="download-button" class="dow">Tải Xuống</button>
+<button id="copy-raw-link-btn" class="dow btn-secondary" style="display: none;">Sao Chép Link</button>
+</div>
+<div class="content" id="tab6">
+<select id="repo-selector-delete" class="input repo-selector-js"></select>
+<button id="reload-delete" class="dow">Load Lại</button>
+<div id="delete-breadcrumbs" class="breadcrumbs"></div>
+<div id="delete-file-list" class="file-browser-container centered-selector"></div>
+<button id="delete-button" class="dow">Xóa Mục Đã Chọn</button>
+</div>
+<div class="content" id="tab7">
+<p>Bỏ dấu cách đầu dòng và cuối dòng mã web</p>
+<textarea id="trim-textarea" placeholder="Nhập văn bản vào đây..." class="input4"></textarea>
+<button onclick="removeLeadingSpaces()" class="dow">Bỏ Dấu Cách</button>
+<button onclick="copyToClipboard(document.getElementById('trim-textarea').value)" class="dow">Sao chép</button>
+</div>
+
+<div class="content" id="tab8">
+<p>Bỏ comment và dòng trống trong mã web</p>
+<p class="small-text">Xóa các chú thích /*...*/, //..., &lt;!--...--&gt; và các dòng trống</p>
+<textarea id="clean-textarea" placeholder="Nhập văn bản hoặc mã nguồn vào đây..." class="input4"></textarea>
+<button onclick="cleanCode()" class="dow">Dọn Dẹp Mã</button>
+<button onclick="copyToClipboard(document.getElementById('clean-textarea').value)" class="dow">Sao chép</button>
+</div>
+</main>
+
+<footer>
+</footer>
+
+<div id="notification-container"></div>
+
+<script>
+let currentRepoStates = {};
+document.addEventListener('DOMContentLoaded', () => {
+if (!GITHUB_TOKEN || GITHUB_TOKEN === '***') {
+showNotification('Lỗi: Vui lòng cung cấp GitHub Token trong file mã nguồn.', 'error', 10000);
+return;
+}
+initializeApp();
+initializeUI();
+setupEventListeners();
+});
+function initializeUI() {
+openTab(null, 'tab1');
+}
+function openTab(evt, tabName) {
+document.querySelectorAll(".content").forEach(c => c.style.display = "none");
+document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+const activeContent = document.getElementById(tabName);
+if (activeContent) activeContent.style.display = "block";
+const tabButton = evt ? evt.currentTarget : document.querySelector(`.tab[onclick*="'${tabName}'"]`);
+if (tabButton) tabButton.classList.add("active");
+}
+function showNotification(message, type = 'info', duration = 5000) {
+const container = document.getElementById('notification-container');
+const notif = document.createElement('div');
+notif.className = `notification ${type}`;
+notif.textContent = message;
+container.appendChild(notif);
+setTimeout(() => { notif.remove(); }, duration);
+}
+function copyToClipboard(text) {
+if (!text) {
+showNotification('Không có nội dung để sao chép!', 'error');
+return;
+}
+navigator.clipboard.writeText(text).then(() => {
+showNotification('Đã sao chép vào clipboard!', 'success');
+}).catch(() => {
+showNotification('Sao chép thất bại.', 'error');
+});
+}
+const withLoading = (button, asyncFunc) => {
+return async (...args) => {
+const originalText = button.textContent;
+button.disabled = true;
+button.textContent = 'Đang xử lý...';
+try {
+await asyncFunc(...args);
+} catch (error) {
+console.error(error);
+showNotification(`Đã xảy ra lỗi: ${error.message}`, 'error');
+} finally {
+button.disabled = false;
+button.textContent = originalText;
+}
+};
+};
+async function githubApiRequest(endpoint, options = {}) {
+const url = `https://api.github.com${endpoint}`;
+const headers = { 'Authorization': `token ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', ...options.headers };
+if (options.body) headers['Content-Type'] = 'application/json';
+const config = { method: options.method || 'GET', headers, body: options.body ? JSON.stringify(options.body) : null };
+const response = await fetch(url, config);
+if (!response.ok) {
+if (response.status === 404) {
+return null;
+}
+const errorData = await response.json().catch(() => ({ message: response.statusText }));
+throw new Error(`API Error (${response.status}): ${errorData.message}`);
+}
+if (response.status === 204 || response.headers.get('Content-Length') === '0') return null;
+return response.json();
+}
+async function fetchUserRepos() {
+const allRepos = [];
+let page = 1;
+try {
+while (true) {
+const repos = await githubApiRequest(`/user/repos?type=all&sort=updated&per_page=100&page=${page}`);
+if (repos.length === 0) break;
+allRepos.push(...repos);
+page++;
+}
+return allRepos.sort((a, b) => a.full_name.localeCompare(b.full_name));
+} catch (error) {
+showNotification("Không thể lấy danh sách repo. Kiểm tra lại token và quyền truy cập.", 'error');
+return [];
+}
+}
+async function initializeApp() {
+const repos = await fetchUserRepos();
+if (repos.length === 0) return;
+document.querySelectorAll('.repo-selector-js').forEach(selector => {
+selector.innerHTML = '';
+currentRepoStates[selector.id] = { path: '' };
+repos.forEach(repo => {
+const option = document.createElement('option');
+option.value = repo.full_name;
+option.textContent = repo.name;
+selector.appendChild(option);
+});
+selector.dispatchEvent(new Event('change'));
+});
+}
+function updateBreadcrumbs(repo, path, breadcrumbsEl, browseFn) {
+breadcrumbsEl.innerHTML = '';
+const rootLink = document.createElement('a');
+rootLink.href = '#';
+rootLink.textContent = repo.split('/')[1];
+rootLink.onclick = (e) => { e.preventDefault(); browseFn(repo, ''); };
+breadcrumbsEl.appendChild(rootLink);
+let currentPath = '';
+if (path) {
+path.split('/').forEach(part => {
+currentPath += (currentPath ? '/' : '') + part;
+breadcrumbsEl.appendChild(document.createTextNode(' / '));
+const partLink = document.createElement('a');
+partLink.href = '#';
+partLink.textContent = part;
+const pathToLoad = currentPath;
+partLink.onclick = (e) => { e.preventDefault(); browseFn(repo, pathToLoad); };
+breadcrumbsEl.appendChild(partLink);
+});
+}
+}
+async function browseRepo(repo, path, containerEl, breadcrumbsEl, itemRenderer, browseFn) {
+containerEl.innerHTML = 'Đang tải...';
+updateBreadcrumbs(repo, path, breadcrumbsEl, browseFn);
+currentRepoStates[repo] = { path };
+try {
+const items = await githubApiRequest(`/repos/${repo}/contents/${path}`);
+containerEl.innerHTML = '';
+if (!Array.isArray(items) || items.length === 0) {
+containerEl.innerHTML = 'Thư mục trống.';
+return;
+}
+items.sort((a, b) => (a.type === 'dir' ? -1 : 1) - (b.type === 'dir' ? -1 : 1) || a.name.localeCompare(b.name));
+items.forEach(item => {
+const itemEl = itemRenderer(item, repo, browseFn);
+containerEl.appendChild(itemEl);
+});
+} catch (error) {
+containerEl.innerHTML = `Lỗi: ${error.message}`;
+}
+}
+async function createPlist() {
+const appName = document.getElementById('plist_appName').value;
+const bundleId = document.getElementById('plist_bundleId').value;
+const ipaUrl = document.getElementById('plist_ipaUrl').value;
+const version = document.getElementById('plist_version').value;
+const fileName = document.getElementById('plist_fileName').value;
+const repo = document.getElementById('repoSelector_tab1').value;
+if (![appName, bundleId, ipaUrl, version, fileName, repo].every(Boolean)) throw new Error('Vui lòng điền đầy đủ thông tin.');
+const plistContent = `<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key><string>${ipaUrl.replace(/&/g, '&amp;')}</string></dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>${bundleId}</string><key>bundle-version</key><string>${version}</string><key>kind</key><string>software</string><key>title</key><string>${appName}</string></dict></dict></array></dict></plist>`;
+await githubApiRequest(`/repos/${repo}/contents/${fileName}`, {
+method: 'PUT',
+body: { message: `feat: Create plist ${fileName}`, content: btoa(unescape(encodeURIComponent(plistContent))) }
+});
+showNotification('Tạo file plist thành công!', 'success');
+const resultContainer = document.getElementById('plist_resultContainer');
+const fullLink = `itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/${repo}/main/${fileName}`;
+resultContainer.innerHTML = `
+<a href="${fullLink}" class="dow">Cài Đặt</a>
+<button onclick="copyToClipboard('${fullLink}')" class="dow">Sao Chép Link Cài</button>
+`;
+}
+async function createFile() {
+const repo = document.getElementById('ghCreator_RepoSelector').value;
+const path = document.getElementById('ghCreator_PathInput').value.trim();
+const content = document.getElementById('ghCreator_ContentInput').value;
+if (!repo || !path) throw new Error('Vui lòng chọn kho chứa và nhập tên file.');
+await githubApiRequest(`/repos/${repo}/contents/${path}`, {
+method: 'PUT',
+body: { message: `feat: Add new file - ${path}`, content: btoa(unescape(encodeURIComponent(content))) }
+});
+showNotification(`Tạo file '${path}' thành công!`, 'success');
+document.getElementById('ghCreator_PathInput').value = '';
+document.getElementById('ghCreator_ContentInput').value = '';
+}
+let currentOpenFile = {};
+function editorItemRenderer(item, repo, browseFn) {
+const div = document.createElement('div');
+div.className = `list-item ${item.type}`;
+div.innerHTML = `<span>${item.type === 'dir' ? '📁' : '📄'}</span> ${item.name}`;
+div.onclick = () => {
+if (item.type === 'dir') {
+browseFn(repo, item.path);
+} else {
+loadFileForEditing(item, repo);
+}
+};
+return div;
+}
+async function loadFileForEditing(item, repo) {
+showNotification(`Đang tải ${item.name}...`, 'info');
+try {
+const data = await githubApiRequest(`/repos/${repo}/contents/${item.path}`);
+currentOpenFile = { repo, path: data.path, sha: data.sha };
+const editorView = document.getElementById('editor-view');
+const editorTextarea = document.getElementById('editor-textarea');
+const editingFilename = document.getElementById('editing-filename');
+editingFilename.textContent = `Đang sửa: ${data.name}`;
+try {
+editorTextarea.value = decodeURIComponent(escape(atob(data.content)));
+editorTextarea.disabled = false;
+} catch (e) {
+editorTextarea.value = "Không thể hiển thị nội dung file này (có thể là file nhị phân).";
+editorTextarea.disabled = true;
+}
+editorView.style.display = 'block';
+} catch (error) {
+showNotification(`Lỗi khi tải file: ${error.message}`, 'error');
+}
+}
+async function updateFile() {
+if (!currentOpenFile.path) throw new Error("Chưa có file nào được chọn để sửa.");
+const newContent = document.getElementById('editor-textarea').value;
+const encodedContent = btoa(unescape(encodeURIComponent(newContent)));
+await githubApiRequest(`/repos/${currentOpenFile.repo}/contents/${currentOpenFile.path}`, {
+method: 'PUT',
+body: {
+message: `docs: Update ${currentOpenFile.path}`,
+content: encodedContent,
+sha: currentOpenFile.sha
+}
+});
+showNotification('Cập nhật file thành công!', 'success');
+document.getElementById('editor-view').style.display = 'none';
+}
+function uploadItemRenderer(item, repo, browseFn) {
+const div = document.createElement('div');
+div.className = `list-item ${item.type}`;
+div.innerHTML = `<span>${item.type === 'dir' ? '📁' : '📄'}</span> ${item.name}`;
+if (item.type === 'dir') {
+div.onclick = () => browseFn(repo, item.path);
+} else {
+div.style.cursor = 'default';
+}
+return div;
+}
+async function uploadFiles() {
+const fileInput = document.getElementById('fileInput');
+const files = fileInput.files;
+if (files.length === 0) throw new Error('Vui lòng chọn tệp để tải lên.');
+const repo = document.getElementById('repo-selector-upload').value;
+const basePath = currentRepoStates[repo]?.path || '';
+const progressContainer = document.getElementById('upload-progress-container');
+progressContainer.innerHTML = '';
+for (let i = 0; i < files.length; i++) {
+const file = files[i];
+const filePath = basePath ? `${basePath}/${file.name}` : file.name;
+const fileProgressContainer = document.createElement('div');
+const statusText = document.createElement('p');
+statusText.style.cssText = "text-align:left; font-size:0.9em;";
+statusText.textContent = `Đang xử lý: ${file.name}`;
+const progressBarContainer = document.createElement('div');
+progressBarContainer.className = 'progress-bar-container';
+const progressBar = document.createElement('div');
+progressBar.className = 'progress-bar';
+progressBarContainer.appendChild(progressBar);
+fileProgressContainer.appendChild(statusText);
+fileProgressContainer.appendChild(progressBarContainer);
+progressContainer.appendChild(fileProgressContainer);
+const reader = new FileReader();
+reader.onload = async (e) => {
+try {
+const existingFile = await githubApiRequest(`/repos/${repo}/contents/${filePath}`);
+let existingSha = existingFile ? existingFile.sha : null;
+if (existingSha) {
+if (!confirm(`Tệp "${file.name}" đã tồn tại. Bạn có muốn ghi đè không?`)) {
+statusText.textContent = `Đã hủy tải lên: ${file.name}`;
+progressBarContainer.style.display = 'none';
+return;
+}
+}
+statusText.textContent = `Đang tải lên: ${file.name}`;
+const content = e.target.result.split(',')[1];
+const requestBody = {
+message: `feat: Upload ${file.name}`,
+content: content,
+sha: existingSha
+};
+const response = await githubApiRequest(`/repos/${repo}/contents/${filePath}`, {
+method: 'PUT',
+body: requestBody
+});
+progressBar.style.width = '100%';
+statusText.textContent = `Hoàn thành: ${file.name}`;
+progressBarContainer.style.display = 'none';
+const copyBtn = document.createElement('button');
+copyBtn.textContent = 'Sao Chép Link';
+copyBtn.className = 'dow';
+copyBtn.style.marginTop = '5px';
+copyBtn.onclick = () => copyToClipboard(response.content.download_url);
+fileProgressContainer.appendChild(copyBtn);
+} catch (error) {
+showNotification(`Lỗi khi tải ${file.name}: ${error.message}`, 'error');
+progressBar.style.backgroundColor = 'var(--secondary-color)';
+statusText.textContent = `Lỗi: ${file.name}`;
+}
+};
+reader.readAsDataURL(file);
+}
+}
+function checkboxItemRenderer(item, repo, browseFn) {
+const div = document.createElement('div');
+div.className = `list-item ${item.type}`;
+const checkbox = document.createElement('input');
+checkbox.type = 'checkbox';
+checkbox.value = item.path;
+checkbox.dataset.sha = item.sha;
+checkbox.dataset.type = item.type;
+checkbox.dataset.rawUrl = item.download_url;
+checkbox.id = `cb-${item.sha}`;
+checkbox.onchange = updateDownloadUI;
+const label = document.createElement('label');
+label.htmlFor = `cb-${item.sha}`;
+label.innerHTML = `<span>${item.type === 'dir' ? '📁' : '📄'}</span> ${item.name}`;
+if (item.type === 'dir') {
+label.onclick = (e) => { e.preventDefault(); browseFn(repo, item.path); };
+}
+div.appendChild(checkbox);
+div.appendChild(label);
+return div;
+}
+function updateDownloadUI() {
+const checked = document.querySelectorAll('#download-file-list input[type="checkbox"]:checked');
+const copyBtn = document.getElementById('copy-raw-link-btn');
+copyBtn.style.display = (checked.length === 1 && checked[0].dataset.type === 'file') ? 'inline-flex' : 'none';
+}
+async function downloadSelectedFiles() {
+const selectedItems = document.querySelectorAll('#download-file-list input[type="checkbox"]:checked');
+if (selectedItems.length === 0) {
+throw new Error('Vui lòng chọn tệp để tải xuống.');
+}
+let downloadedCount = 0;
+for (const item of selectedItems) {
+if (item.dataset.type === 'file') {
+const url = item.dataset.rawUrl;
+const filename = item.value.split('/').pop();
+const a = document.createElement('a');
+a.href = url;
+a.download = filename;
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+downloadedCount++;
+}
+}
+if (downloadedCount > 0) {
+showNotification(`Đang bắt đầu tải ${downloadedCount} tệp...`, 'success');
+} else {
+showNotification('Không có tệp nào được chọn để tải xuống (chỉ có thể tải tệp, không tải thư mục).', 'info');
+}
+}
+async function deleteSelectedItems() {
+const selectedItems = document.querySelectorAll('#delete-file-list input[type="checkbox"]:checked');
+if (selectedItems.length === 0) throw new Error('Vui lòng chọn tệp hoặc thư mục để xóa.');
+const repo = document.getElementById('repo-selector-delete').value;
+let filesToDelete = [];
+for (const item of selectedItems) {
+if (item.dataset.type === 'file') {
+filesToDelete.push({ path: item.value, sha: item.dataset.sha });
+} else if (item.dataset.type === 'dir') {
+const filesInDir = await getFilesInDirRecursive(repo, item.value);
+filesToDelete.push(...filesInDir);
+}
+}
+if (!confirm(`Bạn có chắc muốn xóa vĩnh viễn ${filesToDelete.length} tệp (từ ${selectedItems.length} mục đã chọn)?`)) return;
+let successCount = 0;
+for (const file of filesToDelete) {
+try {
+await githubApiRequest(`/repos/${repo}/contents/${file.path}`, {
+method: 'DELETE',
+body: { message: `chore: delete ${file.path}`, sha: file.sha }
+});
+successCount++;
+} catch (error) {
+showNotification(`Lỗi khi xóa ${file.path}: ${error.message}`, 'error');
+}
+}
+showNotification(`Đã xóa thành công ${successCount}/${filesToDelete.length} tệp.`, 'success');
+document.getElementById('reload-delete').click();
+}
+async function getFilesInDirRecursive(repo, path) {
+let files = [];
+const contents = await githubApiRequest(`/repos/${repo}/contents/${path}`);
+for (const item of contents) {
+if (item.type === 'file') {
+files.push({ path: item.path, sha: item.sha });
+} else if (item.type === 'dir') {
+const subFiles = await getFilesInDirRecursive(repo, item.path);
+files.push(...subFiles);
+}
+}
+return files;
+}
+function setupEventListeners() {
+document.getElementById('create-plist-btn').addEventListener('click', e => withLoading(e.target, createPlist)());
+document.getElementById('ghCreator_SubmitButton').addEventListener('click', e => withLoading(e.target, createFile)());
+document.getElementById('editor-update-btn').addEventListener('click', e => withLoading(e.target, updateFile)());
+document.getElementById('upload-button').addEventListener('click', e => withLoading(e.target, uploadFiles)());
+document.getElementById('delete-button').addEventListener('click', e => withLoading(e.target, deleteSelectedItems)());
+document.getElementById('download-button').addEventListener('click', e => withLoading(e.target, downloadSelectedFiles)());
+document.getElementById('copy-raw-link-btn').addEventListener('click', () => {
+const checked = document.querySelector('#download-file-list input[type="checkbox"]:checked');
+if (checked) copyToClipboard(checked.dataset.rawUrl);
+});
+const setupBrowser = (selectorId, reloadBtnId, containerId, breadcrumbsId, renderer) => {
+const selector = document.getElementById(selectorId);
+const container = document.getElementById(containerId);
+const breadcrumbs = document.getElementById(breadcrumbsId);
+const reloadBtn = document.getElementById(reloadBtnId);
+const browse = (repo, path) => browseRepo(repo, path, container, breadcrumbs, renderer, browse);
+selector.addEventListener('change', () => browse(selector.value, ''));
+reloadBtn.addEventListener('click', () => {
+const currentPath = currentRepoStates[selector.value]?.path || '';
+browse(selector.value, currentPath);
+});
+};
+setupBrowser('repo-selector-editor', 'reload-editor', 'editor-file-list', 'editor-breadcrumbs', editorItemRenderer);
+setupBrowser('repo-selector-upload', 'reload-upload', 'upload-folder-browser', 'upload-breadcrumbs', uploadItemRenderer);
+setupBrowser('repo-selector-download', 'reload-download', 'download-file-list', 'download-breadcrumbs', checkboxItemRenderer);
+setupBrowser('repo-selector-delete', 'reload-delete', 'delete-file-list', 'delete-breadcrumbs', checkboxItemRenderer);
+}
+
+// ☘️ TAB 7 & 8:
+function removeLeadingSpaces() {
+const textarea = document.getElementById('trim-textarea');
+textarea.value = textarea.value.split('\n').map(line => line.trim()).join('\n');
+showNotification('Đã loại bỏ khoảng trắng thừa!', 'success');
+}
+function cleanCode() {
+const textarea = document.getElementById('clean-textarea');
+let text = textarea.value;
+text = text.replace(/<!--[\s\S]*?-->/g, '').replace(/\/\*[\s\S]*?\*\//g, '');
+let lines = text.split('\n');
+const modifiedLines = lines
+.map(line =>
+line
+.replace(/\/\/\/\s.*$/, '')
+.replace(/\/\/\s.*$/, '')
+.trimEnd())
+.filter(line => line.trim() !== '');
+textarea.value = modifiedLines.join('\n');
+showNotification('Đã dọn dẹp mã nguồn!', 'success');
+}
+</script>
+
+</body>
+</html>
