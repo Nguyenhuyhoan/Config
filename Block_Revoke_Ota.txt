@@ -7,6 +7,9 @@
 ||ocsp-int.apple.com^
 ||ocsp-lb.apple.com^
 ||ocsp-lb2.apple.com^
+||ocsp-lb3.apple.com^
+||ocsp-lb4.apple.com^
+||ocsp-lb5.apple.com^
 ||certs.apple.com^
 ||certs1.apple.com^
 ||certs2.apple.com^
