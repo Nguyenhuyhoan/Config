@@ -4,6 +4,16 @@
 ||ocsp3.apple.com^
 ||ocsp4.apple.com^
 ||ocsp5.apple.com^
+
+||ocsp-int.apple.com^
+||ocsp-lb.apple.com^
+||ocsp-lb2.apple.com^
+||valid.apple-dns.net^
+||verisign.com^
+||globalsign.com^
+||globalsign.net^
+
+
 ||certs.apple.com^
 ||certs1.apple.com^
 ||certs2.apple.com^
