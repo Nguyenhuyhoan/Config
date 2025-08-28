@@ -4,16 +4,9 @@
 ||ocsp3.apple.com^
 ||ocsp4.apple.com^
 ||ocsp5.apple.com^
-
 ||ocsp-int.apple.com^
 ||ocsp-lb.apple.com^
 ||ocsp-lb2.apple.com^
-||valid.apple-dns.net^
-||verisign.com^
-||globalsign.com^
-||globalsign.net^
-
-
 ||certs.apple.com^
 ||certs1.apple.com^
 ||certs2.apple.com^
@@ -33,6 +26,7 @@
 ||crls4.apple.com^
 ||crls5.apple.com^
 ||valid.apple.com^
+||valid.apple-dns.net^
 ||device-management.apple.com^
 ||appattest.apple.com^
 ||vpp.itunes.apple.com^
@@ -41,3 +35,6 @@
 ||axm-app.apple.com^
 ||digicert.cn^
 ||digicert.com^
+||verisign.com^
+||globalsign.com^
+||globalsign.net^
