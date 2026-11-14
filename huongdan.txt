@@ -24,7 +24,7 @@ Bước 9: Hoàn tất! Bây giờ bạn hãy quay ra và thử đăng nhập l�
 
 (Mẹo nhỏ: Sau khi làm xong Bước 8, bạn có thể vuốt đóng hẳn ứng dụng SideStore rồi mở lại, sau đó mới đăng nhập ở Bước 9 thì tỷ lệ thành công sẽ cao hơn).
 
-2TTT: 🛠️ Fix Login SideStore (Bản Tiếng Việt)
+2TTT: 🛠️ Fix Login SideStore Bản Tiếng Việt - Bản Này
 
 Bước 1: Vào mục Cài đặt => Chọn dòng đầu tiên Máy chủ Anisette.
 Bước 2: Trong bảng hiện ra: Gạt TẮT mục Use On-Device Anisette. Gạt TẮT mục Enable Auto Rotation. Ở phần chọn máy chủ bên dưới, tích chọn SideStore (New) (★ Khuyên dùng) => bấm Xong.
