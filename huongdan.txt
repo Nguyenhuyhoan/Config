@@ -1,16 +1,13 @@
-1TTT: Dhjh dhj fhj
+1TTT: Hướng Dẫn Fix Login SideStore Gốc
 
-Open Settings → User Customizations.
-Disable On-Device Anisette.
-https://raw.githubusercontent.com/Nguyenhuyhoan/Config/refs/heads/main/Backgroud.jpeg
-3. Go to Settings → Anisette Servers.
-Select SideStore (New) (new.ani.sidestore.io).
-5. Disable Enable Auto Rotation.
-6. Go back to User Customizations → Anisette Client
+Mở Settings → User Customizations → Tắt On-Device Anisette.
+Mở Settings → Anisette Servers → Chọn máy chủ SideStore (New) (new.ani.sidestore.io).
+Ngay trong đó luôn nhấn tắt Enable Auto Rotation.
+Vào lại User Customizations → Anisette Client
 Configuration.
-7. Under Remote Server Sync, tap Fetch, then Save as Overrides. If a separate Save Overrides option appears, use it as well.
-8. Return to User Customizations and tap Reset adi.pb.
-9. Try signing in again with your Ap ple account
+Trong Remote Server Sync, chạm vào Fetch, sau đó lưu dưới dạng ghi đè. Nếu tùy chọn Save Overrides riêng xuất hiện, hãy sử dụng tùy chọn đó.
+Trở lại User Customizations và nhấn Reset adi.pb.
+Thử đăng nhập lại tài khoản của bạn
 
 2TTT: Ghj Gij Fhjj
 
