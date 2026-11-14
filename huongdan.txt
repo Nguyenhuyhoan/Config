@@ -38,7 +38,7 @@ Bước 5: Bấm mũi tên góc trái trên cùng (<) để quay lại => bấm 
 Bước 6: Thoát App, vô lại App => Cài đặt và đăng nhập lại.
 
 3TTT: Các Lỗi Cơ Bản Do Máy Chủ
-Các lỗi này gây tình trạng không thể cài ipa hoặc làm mới ứng dụng, như ảnh dưới:
+Các lỗi này làm cho bạn không thể cài ipa hoặc làm mới ứng dụng, như ảnh dưới:
 
 https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2977.jpeg
 
