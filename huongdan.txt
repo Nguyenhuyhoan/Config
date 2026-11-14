@@ -28,6 +28,9 @@ Bước 9: Hoàn tất! Bây giờ bạn hãy quay ra và thử đăng nhập l�
 
 Bước 1: Vào mục Cài đặt => Chọn dòng đầu tiên Máy chủ Anisette.
 Bước 2: Trong bảng hiện ra: Gạt TẮT mục Use On-Device Anisette. Gạt TẮT mục Enable Auto Rotation. Ở phần chọn máy chủ bên dưới, tích chọn SideStore (New) (★ Khuyên dùng) => bấm Xong.
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2976.jpeg
+
 https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
 Bước 3: Kéo xuống chọn Tùy chỉnh giao diện & người dùng => chọn Cấu hình máy khách Anisette.
 Bước 4: Kéo xuống mục ĐỒNG BỘ TỪ MÁY CHỦ ANISETTE: Bấm nút Tải về => Bấm nút Áp Dụng Vào Cấu Hình Hiện Tại => Cuộn lên trên một chút bấm nút Lưu Cấu Hình Tùy Chỉnh.
