@@ -52,3 +52,4 @@ https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2976.jpeg
 Sau đó kèo xuống dưới và chọn máy chủ SideStore (New)
 
 https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
+Hiện tại máy chủ này hoạt động tốt, nếu mã lỗi không phải những dạng trên thì bạn thử nghiên cứu Pairing File hoặc nhờ cộng đồng giúp đỡ.
