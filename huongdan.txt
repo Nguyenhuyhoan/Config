@@ -1,9 +1,10 @@
 1TTT: Dhjh dhj fhj
 
-1. Open Settings → User Customizations.
-2. Disable On-Device Anisette.
+Open Settings → User Customizations.
+Disable On-Device Anisette.
+https://raw.githubusercontent.com/Nguyenhuyhoan/Config/refs/heads/main/Backgroud.jpeg
 3. Go to Settings → Anisette Servers.
-4. Select SideStore (New) (new.ani.sidestore.io).
+Select SideStore (New) (new.ani.sidestore.io).
 5. Disable Enable Auto Rotation.
 6. Go back to User Customizations → Anisette Client
 Configuration.
