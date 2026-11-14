@@ -24,10 +24,11 @@ Bước 9: Hoàn tất! Bây giờ bạn hãy quay ra và thử đăng nhập l�
 
 (Mẹo nhỏ: Sau khi làm xong Bước 8, bạn có thể vuốt đóng hẳn ứng dụng SideStore rồi mở lại, sau đó mới đăng nhập ở Bước 9 thì tỷ lệ thành công sẽ cao hơn).
 
-2TTT: 🛠️ CÁCH SỬA LỖI ĐĂNG NHẬP SIDESTORE (BẢN TIẾNG VIỆT)
+2TTT: 🛠️ Fix Login SideStore (Bản Tiếng Việt)
 
 Bước 1: Vào mục Cài đặt => Chọn dòng đầu tiên Máy chủ Anisette.
 Bước 2: Trong bảng hiện ra: Gạt TẮT mục Use On-Device Anisette. Gạt TẮT mục Enable Auto Rotation. Ở phần chọn máy chủ bên dưới, tích chọn SideStore (New) (★ Khuyên dùng) => bấm Xong.
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
 Bước 3: Kéo xuống chọn Tùy chỉnh giao diện & người dùng => chọn Cấu hình máy khách Anisette.
 Bước 4: Kéo xuống mục ĐỒNG BỘ TỪ MÁY CHỦ ANISETTE: Bấm nút Tải về => Bấm nút Áp Dụng Vào Cấu Hình Hiện Tại => Cuộn lên trên một chút bấm nút Lưu Cấu Hình Tùy Chỉnh.
 Bước 5: Bấm mũi tên góc trái trên cùng (<) để quay lại => bấm vào dòng chữ màu hồng Đặt lại dữ liệu adi.pb => chọn Đặt lại & Đăng xuất (lưu ý giữ nguyên dấu tích ở dòng giữ lại tiêu đề/headers nếu có).
