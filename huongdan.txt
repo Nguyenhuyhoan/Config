@@ -1,15 +1,38 @@
 1TTT: Dhjh dhj fhj
-Dhjkh fuik ghi fhjj
-Fuij fyi fhjj
-Gụi fuii ghii
+
+1. Open Settings → User Customizations.
+2. Disable On-Device Anisette.
+3. Go to Settings → Anisette Servers.
+4. Select SideStore (New) (new.ani.sidestore.io).
+5. Disable Enable Auto Rotation.
+6. Go back to User Customizations → Anisette Client
+Configuration.
+7. Under Remote Server Sync, tap Fetch, then Save as Overrides. If a separate Save Overrides option appears, use it as well.
+8. Return to User Customizations and tap Reset adi.pb.
+9. Try signing in again with your Ap ple account
 
 2TTT: Ghj Gij Fhjj
-Fhhii vhii fhji
-Dụi ghi ghj hhj
-Fhji gui gui ghii
-Duui ghii
+
+Open Settings → User Customizations.
+Disable On-Device Anisette.
+3. Go to Settings → Anisette Servers.
+4. Select SideStore (New) (new.ani.sidestore.io).
+Disable Enable Auto Rotation.
+6. Go back to User Customizations → Anisette Client
+Configuration.
+7. Under Remote Server Sync, tap Fetch, then Save as Overrides. If a separate Save Overrides option appears, use it as well.
+8. Return to User Customizations and tap Reset adi.pb.
+9. Try signing in again with your Ap ple account
 
 
 3TTT: Fujj Fuj Fhj
-Dhjj hụ hioi ghj
-Dgji ghji ghjii
+1. Open Settings → User Customizations.
+2. Disable On-Device Anisette.
+3. Go to Settings → Anisette Servers.
+4. Select SideStore (New) (new.ani.sidestore.io).
+5. Disable Enable Auto Rotation.
+6. Go back to User Customizations → Anisette Client
+Configuration.
+7. Under Remote Server Sync, tap Fetch, then Save as Overrides. If a separate Save Overrides option appears, use it as well.
+8. Return to User Customizations and tap Reset adi.pb.
+9. Try signing in again with your Ap ple account
