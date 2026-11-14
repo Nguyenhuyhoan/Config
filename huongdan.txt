@@ -37,14 +37,18 @@ Bước 4: Kéo xuống mục ĐỒNG BỘ TỪ MÁY CHỦ ANISETTE: Bấm nút 
 Bước 5: Bấm mũi tên góc trái trên cùng (<) để quay lại => bấm vào dòng chữ màu hồng Đặt lại dữ liệu adi.pb => chọn Đặt lại & Đăng xuất (lưu ý giữ nguyên dấu tích ở dòng giữ lại tiêu đề/headers nếu có).
 Bước 6: Thoát App, vô lại App => Cài đặt và đăng nhập lại.
 
-3TTT: Fujj Fuj Fhj
-1. Open Settings → User Customizations.
-2. Disable On-Device Anisette.
-3. Go to Settings → Anisette Servers.
-4. Select SideStore (New) (new.ani.sidestore.io).
-5. Disable Enable Auto Rotation.
-6. Go back to User Customizations → Anisette Client
-Configuration.
-7. Under Remote Server Sync, tap Fetch, then Save as Overrides. If a separate Save Overrides option appears, use it as well.
-8. Return to User Customizations and tap Reset adi.pb.
-9. Try signing in again with your Ap ple account
+3TTT: Các Lỗi Cơ Bản Do Máy Chủ
+Các lỗi này gây tình trạng không thể cài ipa hoặc làm mới ứng dụng, như ảnh dưới:
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2977.jpeg
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2975.jpeg
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2973.jpeg
+
+Cách khắc phục: Vào Cài đặt => Chọn Máy chủ Anisette => Gạt TẮT mục Use On-Device Anisette và Enable Auto Rotation
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2976.jpeg
+Sau đó kèo xuống dưới và chọn máy chủ SideStore (New)
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
