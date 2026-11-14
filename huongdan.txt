@@ -1,12 +1,28 @@
 1TTT: Hướng Dẫn Fix Login SideStore Gốc
 
-Mở Settings → User Customizations → Tắt On-Device Anisette.
-Mở Settings → Anisette Servers → Chọn máy chủ SideStore (New) (new.ani.sidestore.io).
-Ngay trong đó luôn nhấn tắt Enable Auto Rotation.
-Vào lại User Customizations → Anisette Client Configuration.
-Trong Remote Server Sync, chạm vào Fetch, sau đó lưu dưới dạng ghi đè. Nếu tùy chọn Save Overrides riêng xuất hiện, hãy sử dụng tùy chọn đó.
-Trở lại User Customizations và nhấn Reset adi.pb.
-Thử đăng nhập lại tài khoản của bạn
+Bước 1: Mở ứng dụng SideStore, vào mục Settings (Cài đặt - biểu tượng bánh răng ở góc dưới) → Kéo xuống tìm và chọn User Customizations.
+
+Bước 2: Tìm dòng On-Device Anisette và TẮT công tắc của nó đi.
+
+Bước 3: Bấm quay lại mục Settings (Cài đặt) ban đầu → Chọn vào mục Anisette Servers.
+
+Bước 4: Tại đây, bạn tích chọn vào dòng chữ SideStore (New) (có dòng chữ nhỏ ở dưới là new.ani.sidestore.io).
+
+Bước 5: Cũng ngay tại màn hình đó, tìm dòng Enable Auto Rotation và TẮT công tắc của nó đi.
+
+Bước 6: Quay lại mục User Customizations (như ở Bước 1) → Chọn tiếp vào mục Anisette Client Configuration.
+
+Bước 7: Kéo xuống tìm phần có tiêu đề Remote Server Sync:
+
+	•	Bấm vào chữ Fetch (đợi 1-2 giây cho nó tải).
+	•	Sau đó bấm vào Save as Overrides.
+	•	(Lưu ý: Nếu bạn thấy có thêm một nút Save Overrides nữa hiện ra thì cứ bấm luôn vào đó).
+
+Bước 8: Bấm quay lại màn hình User Customizations → Tìm và bấm vào dòng chữ Reset adi.pb.
+
+Bước 9: Hoàn tất! Bây giờ bạn hãy quay ra và thử đăng nhập lại bằng tài khoản Apple ID của bạn xem đã được chưa nhé.
+
+(Mẹo nhỏ: Sau khi làm xong Bước 8, bạn có thể vuốt đóng hẳn ứng dụng SideStore rồi mở lại, sau đó mới đăng nhập ở Bước 9 thì tỷ lệ thành công sẽ cao hơn).
 
 2TTT: Ghj Gij Fhjj
 
