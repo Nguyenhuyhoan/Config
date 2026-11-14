@@ -1,4 +1,4 @@
-1TTT: Hướng Dẫn Fix Login SideStore Gốc
+1TTT: 🛠️ Hướng Dẫn Fix Login SideStore Gốc
 
 Bước 1: Mở ứng dụng SideStore, vào mục Settings (Cài đặt - biểu tượng bánh răng ở góc dưới) → Kéo xuống tìm và chọn User Customizations.
 
@@ -24,19 +24,14 @@ Bước 9: Hoàn tất! Bây giờ bạn hãy quay ra và thử đăng nhập l�
 
 (Mẹo nhỏ: Sau khi làm xong Bước 8, bạn có thể vuốt đóng hẳn ứng dụng SideStore rồi mở lại, sau đó mới đăng nhập ở Bước 9 thì tỷ lệ thành công sẽ cao hơn).
 
-2TTT: Ghj Gij Fhjj
+2TTT: 🛠️ CÁCH SỬA LỖI ĐĂNG NHẬP SIDESTORE (BẢN TIẾNG VIỆT)
 
-Open Settings → User Customizations.
-Disable On-Device Anisette.
-3. Go to Settings → Anisette Servers.
-4. Select SideStore (New) (new.ani.sidestore.io).
-Disable Enable Auto Rotation.
-6. Go back to User Customizations → Anisette Client
-Configuration.
-7. Under Remote Server Sync, tap Fetch, then Save as Overrides. If a separate Save Overrides option appears, use it as well.
-8. Return to User Customizations and tap Reset adi.pb.
-9. Try signing in again with your Ap ple account
-
+Bước 1: Vào mục Cài đặt => Chọn dòng đầu tiên Máy chủ Anisette.
+Bước 2: Trong bảng hiện ra: Gạt TẮT mục Use On-Device Anisette. Gạt TẮT mục Enable Auto Rotation. Ở phần chọn máy chủ bên dưới, tích chọn SideStore (New) (★ Khuyên dùng) => bấm Xong.
+Bước 3: Kéo xuống chọn Tùy chỉnh giao diện & người dùng => chọn Cấu hình máy khách Anisette.
+Bước 4: Kéo xuống mục ĐỒNG BỘ TỪ MÁY CHỦ ANISETTE: Bấm nút Tải về => Bấm nút Áp Dụng Vào Cấu Hình Hiện Tại => Cuộn lên trên một chút bấm nút Lưu Cấu Hình Tùy Chỉnh.
+Bước 5: Bấm mũi tên góc trái trên cùng (<) để quay lại => bấm vào dòng chữ màu hồng Đặt lại dữ liệu adi.pb => chọn Đặt lại & Đăng xuất (lưu ý giữ nguyên dấu tích ở dòng giữ lại tiêu đề/headers nếu có).
+Bước 6: Thoát App, vô lại App => Cài đặt và đăng nhập lại.
 
 3TTT: Fujj Fuj Fhj
 1. Open Settings → User Customizations.
