@@ -3,8 +3,7 @@
 Mở Settings → User Customizations → Tắt On-Device Anisette.
 Mở Settings → Anisette Servers → Chọn máy chủ SideStore (New) (new.ani.sidestore.io).
 Ngay trong đó luôn nhấn tắt Enable Auto Rotation.
-Vào lại User Customizations → Anisette Client
-Configuration.
+Vào lại User Customizations → Anisette Client Configuration.
 Trong Remote Server Sync, chạm vào Fetch, sau đó lưu dưới dạng ghi đè. Nếu tùy chọn Save Overrides riêng xuất hiện, hãy sử dụng tùy chọn đó.
 Trở lại User Customizations và nhấn Reset adi.pb.
 Thử đăng nhập lại tài khoản của bạn
