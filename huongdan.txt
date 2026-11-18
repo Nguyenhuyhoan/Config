@@ -56,3 +56,19 @@ Sau đó kèo xuống dưới và chọn máy chủ SideStore (New)
 
 https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
 Hiện tại máy chủ này hoạt động tốt, nếu mã lỗi không phải những dạng trên thì bạn thử nghiên cứu Pairing File hoặc nhờ cộng đồng giúp đỡ.
+
+
+4TTT: Lỗi SideStore Mù VPN
+Mọi thứ bạn làm đều ok (VPN đã bật xanh, file ghép nối chuẩn, thiết bị ghép nối chuẩn, máy không báo lỗi gì), nhưng vào SideStore để cài ipa hay refresh all app thì nó lại báo lỗi “Chưa bật VPN hoặc Không có đường hầm 127.0.0.1”.
+
+Nguyên nhân sâu xa là do cơ chế bảo mật mạng và quản lý RAM của iOS. Đôi khi, dù ứng dụng LocalDevVPN báo đã bật (màu xanh), nhưng thực chất “đường hầm” (tunnel) kết nối nội bộ đã bị iOS ngắt ngầm, hoặc tiến trình của SideStore bị kẹt không nhận diện được mạng ảo này.
+
+Cách Khắc Phục:
+
+Khởi động lại máy hoặc tắt rồi bật lại Chế Độ Nhà Phát Triển (Nó cũng bắt khởi động lại máy khi tắt và bật)
+
+Khi bạn khởi động lại máy hoặc Tắt/Bật Chế Độ Nhà Phát Triển, iOS sẽ khởi động lại dịch vụ lockdownd và usbmuxd (hai dịch vụ hệ thống dùng để giao tiếp với file Pairing và Thiết bị đã ghép nối). Đôi khi dịch vụ này bị treo, làm cho dù VPN có hoạt động thì iOS cũng từ chối kết nối từ SideStore.
+
+Nếu bạn đã làm cách trên mà vẫn bị lỗi, có thể file Pairing của bạn đã bị lỗi nhẹ sau các lần cập nhật iOS. Bạn nên cắm vào máy tính và dùng jitterbugpair để tạo lại một file Pairing mới rồi nạp lại vào SideStore.
+
+
