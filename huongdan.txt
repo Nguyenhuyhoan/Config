@@ -73,12 +73,12 @@ Nếu bạn đã làm cách trên mà vẫn bị lỗi, có thể file Pairing c
 
 
 5TTT: Fix Lỗi Đăng Nhập Mới Nhất (Lỗi 503 Từ Apple)
-Hiện tại, Apple đang quét gắt gao và chặn các máy chủ giả lập mang tên “macOS” (thường báo lỗi HTTP 503 khiến bạn không thể đăng nhập Apple ID trên cả SideStore lẫn SideInstaller). Để vượt qua đợt quét này, hệ thống đã bổ sung máy chủ mới sử dụng danh tính “Mac OS X” cũ hơn để lách luật.
+Hiện tại, Apple đang quét gắt gao và chặn các máy chủ giả lập mang tên “macOS” (thường báo lỗi HTTP 503 khiến bạn không thể đăng nhập Apple ID trên cả SideStore lẫn SideInstaller). Để vượt qua đợt quét này, cộng đồng đã bổ sung máy chủ mới sử dụng danh tính “Mac OS X” cũ hơn để lách luật.
 
 Cách khắc phục:
 
 Đối với SideStore:
-Bạn chỉ cần làm y hệt như hướng dẫn ở mục 1TTT hoặc 2TTT ở trên, nhưng ở bước chọn Máy chủ Anisette, thay vì chọn SideStore (New), bạn hãy tìm và tích chọn máy chủ tên là lillq (có dòng chữ nhỏ ở dưới là anisette.lillq.me).
+Bạn chỉ cần làm y hệt như hướng dẫn ở mục “Hướng Dẫn Fix Login Bản Này“ hoặc “HD Fix Login SideStore Gốc“ ở dưới, nhưng ở bước chọn Máy chủ Anisette, thay vì chọn SideStore (New), bạn hãy tìm và tích chọn máy chủ tên là lillq (có dòng chữ nhỏ ở dưới là anisette.lillq.me).
 (Đây là cụm máy chủ thông minh, tự động kiểm tra mỗi giờ để chọn ra cấu hình đang được Apple cho phép đi qua).
 
 Đối với người dùng SideInstaller:
