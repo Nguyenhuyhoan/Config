@@ -1,0 +1,73 @@
+1TTT: HD Fix Login SideStore Gốc
+
+Bước 1: Mở ứng dụng SideStore, vào mục Settings (Cài đặt - biểu tượng bánh răng ở góc dưới) → Kéo xuống tìm và chọn User Customizations.
+
+Bước 2: Tìm dòng On-Device Anisette và TẮT công tắc của nó đi.
+
+Bước 3: Bấm quay lại mục Settings (Cài đặt) ban đầu → Chọn vào mục Anisette Servers.
+
+Bước 4: Tại đây, bạn tích chọn vào dòng chữ SideStore (New) (có dòng chữ nhỏ ở dưới là new.ani.sidestore.io).
+
+Bước 5: Cũng ngay tại màn hình đó, tìm dòng Enable Auto Rotation và TẮT công tắc của nó đi.
+
+Bước 6: Quay lại mục User Customizations (như ở Bước 1) → Chọn tiếp vào mục Anisette Client Configuration.
+
+Bước 7: Kéo xuống tìm phần có tiêu đề Remote Server Sync:
+
+	•	Bấm vào chữ Fetch (đợi 1-2 giây cho nó tải).
+	•	Sau đó bấm vào Save as Overrides.
+	•	(Lưu ý: Nếu bạn thấy có thêm một nút Save Overrides nữa hiện ra thì cứ bấm luôn vào đó).
+
+Bước 8: Bấm quay lại màn hình User Customizations → Tìm và bấm vào dòng chữ Reset adi.pb.
+
+Bước 9: Hoàn tất! Bây giờ bạn hãy quay ra và thử đăng nhập lại bằng tài khoản Apple ID của bạn xem đã được chưa nhé.
+
+(Mẹo nhỏ: Sau khi làm xong Bước 8, bạn có thể vuốt đóng hẳn ứng dụng SideStore rồi mở lại, sau đó mới đăng nhập ở Bước 9 thì tỷ lệ thành công sẽ cao hơn).
+
+2TTT:Hướng Dẫn Fix Login Bản Này
+
+Bước 1: Vào mục Cài đặt => Chọn dòng đầu tiên Máy chủ Anisette.
+Bước 2: Trong bảng hiện ra: Gạt TẮT mục Use On-Device Anisette. Gạt TẮT mục Enable Auto Rotation. Ở phần chọn máy chủ bên dưới, tích chọn SideStore (New) (★ Khuyên dùng) => bấm Xong.
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2976.jpeg
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
+Bước 3: Kéo xuống chọn Tùy chỉnh giao diện & người dùng => chọn Cấu hình máy khách Anisette.
+Bước 4: Kéo xuống mục ĐỒNG BỘ TỪ MÁY CHỦ ANISETTE: Bấm nút Tải về => Bấm nút Áp Dụng Vào Cấu Hình Hiện Tại => Cuộn lên trên một chút bấm nút Lưu Cấu Hình Tùy Chỉnh.
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2986.jpeg
+
+Bước 5: Bấm mũi tên góc trái trên cùng (<) để quay lại => bấm vào dòng chữ màu hồng Đặt lại dữ liệu adi.pb => chọn Đặt lại & Đăng xuất (lưu ý giữ nguyên dấu tích ở dòng giữ lại tiêu đề/headers nếu có).
+Bước 6: Thoát App, vô lại App => Cài đặt và đăng nhập lại.
+
+3TTT: Các Lỗi Cơ Bản Do Máy Chủ
+Các lỗi này làm cho bạn không thể cài ipa hoặc làm mới ứng dụng, như ảnh dưới:
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2977.jpeg
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2975.jpeg
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2973.jpeg
+
+Cách khắc phục: Vào Cài đặt => Chọn Máy chủ Anisette => Gạt TẮT mục Use On-Device Anisette và Enable Auto Rotation
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2976.jpeg
+Sau đó kèo xuống dưới và chọn máy chủ SideStore (New)
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/IMG_2971.jpeg
+Hiện tại máy chủ này hoạt động tốt, nếu mã lỗi không phải những dạng trên thì bạn thử nghiên cứu Pairing File hoặc nhờ cộng đồng giúp đỡ.
+
+
+4TTT: Lỗi SideStore Mù VPN
+Mọi thứ bạn làm đều ok (VPN đã bật xanh, file ghép nối chuẩn, thiết bị ghép nối chuẩn, máy không báo lỗi gì), nhưng vào SideStore để cài ipa hay refresh all app thì nó lại báo lỗi “Chưa bật VPN hoặc Không có đường hầm 127.0.0.1”.
+
+Nguyên nhân sâu xa là do cơ chế bảo mật mạng và quản lý RAM của iOS. Đôi khi, dù ứng dụng LocalDevVPN báo đã bật (màu xanh), nhưng thực chất “đường hầm” (tunnel) kết nối nội bộ đã bị iOS ngắt ngầm, hoặc tiến trình của SideStore bị kẹt không nhận diện được mạng ảo này.
+
+Cách Khắc Phục:
+
+Khởi động lại máy hoặc tắt rồi bật lại Chế Độ Nhà Phát Triển (Nó cũng bắt khởi động lại máy khi tắt và bật)
+
+Khi bạn khởi động lại máy hoặc Tắt/Bật Chế Độ Nhà Phát Triển, iOS sẽ khởi động lại dịch vụ lockdownd và usbmuxd (hai dịch vụ hệ thống dùng để giao tiếp với file Pairing và Thiết bị đã ghép nối). Đôi khi dịch vụ này bị treo, làm cho dù VPN có hoạt động thì iOS cũng từ chối kết nối từ SideStore.
+
+Nếu bạn đã làm cách trên mà vẫn bị lỗi, có thể file Pairing của bạn đã bị lỗi nhẹ sau các lần cập nhật iOS. Bạn nên cắm vào máy tính và dùng jitterbugpair để tạo lại một file Pairing mới rồi nạp lại vào SideStore.
+
