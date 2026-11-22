@@ -78,7 +78,7 @@ Hiện tại, Apple đang quét gắt gao và chặn các máy chủ giả lập
 Cách khắc phục:
 
 Đối với SideStore:
-Bạn chỉ cần làm y hệt như hướng dẫn ở mục “Hướng Dẫn Fix Login Bản Này“ hoặc “HD Fix Login SideStore Gốc“ ở dưới, nhưng ở bước chọn Máy chủ Anisette, thay vì chọn SideStore (New), bạn hãy tìm và tích chọn máy chủ tên là lillq (có dòng chữ nhỏ ở dưới là anisette.lillq.me).
+Bạn chỉ cần làm y hệt như hướng dẫn ở mục “Hướng Dẫn Fix Login Bản Này“ hoặc “HD Fix Login SideStore Gốc“ ở dưới, nhưng ở bước chọn Máy chủ Anisette, thay vì chọn SideStore (New), bạn hãy tìm và tích chọn máy chủ tên là Lill q (có dòng chữ nhỏ ở dưới là anisette.lillq.me).
 (Đây là cụm máy chủ thông minh, tự động kiểm tra mỗi giờ để chọn ra cấu hình đang được Apple cho phép đi qua).
 
 Đối với người dùng SideInstaller:
