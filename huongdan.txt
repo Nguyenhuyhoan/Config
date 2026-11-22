@@ -72,3 +72,14 @@ Khi bạn khởi động lại máy hoặc Tắt/Bật Chế Độ Nhà Phát Tr
 Nếu bạn đã làm cách trên mà vẫn bị lỗi, có thể file Pairing của bạn đã bị lỗi nhẹ sau các lần cập nhật iOS. Bạn nên cắm vào máy tính và dùng jitterbugpair để tạo lại một file Pairing mới rồi nạp lại vào SideStore.
 
 
+5TTT: Fix Lỗi Đăng Nhập Mới Nhất (Lỗi 503 Từ Apple)
+Hiện tại, Apple đang quét gắt gao và chặn các máy chủ giả lập mang tên “macOS” (thường báo lỗi HTTP 503 khiến bạn không thể đăng nhập Apple ID trên cả SideStore lẫn SideInstaller). Để vượt qua đợt quét này, hệ thống đã bổ sung máy chủ mới sử dụng danh tính “Mac OS X” cũ hơn để lách luật.
+
+Cách khắc phục:
+
+Đối với SideStore:
+Bạn chỉ cần làm y hệt như hướng dẫn ở mục 1TTT hoặc 2TTT ở trên, nhưng ở bước chọn Máy chủ Anisette, thay vì chọn SideStore (New), bạn hãy tìm và tích chọn máy chủ tên là lillq (có dòng chữ nhỏ ở dưới là anisette.lillq.me).
+(Đây là cụm máy chủ thông minh, tự động kiểm tra mỗi giờ để chọn ra cấu hình đang được Apple cho phép đi qua).
+
+Đối với người dùng SideInstaller:
+Bắt buộc phải cập nhật SideInstaller lên phiên bản mới nhất. Bản cập nhật này đã được tích hợp sẵn máy chủ anisette.lillq.me làm mặc định và tự động giả lập về phiên bản Mac OS X 10.15.7, giúp bạn đăng nhập Apple ID mượt mà trở lại mà không còn bị Apple từ chối.
