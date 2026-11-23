@@ -123,7 +123,7 @@ Hế lu All! Mình vừa dọn dẹp và tinh chỉnh lại bản LC + SS Nightl
 
 📌 BÍ KÍP CÀI ĐẶT ĐỂ ỔN ĐỊNH NHẤT: 
 
-Do các app cài đặt bên ngoài (hoặc bản LC + SS gốc của họ) có cơ chế đóng gói chưa khớp hẳn với luồng hoạt động riêng trên bản LC + SS Mod này của mình, nên để app chạy chuẩn chỉ và ổn định nhất thì anh em chịu khó “cài 2 lần” theo đúng bài này nhé:
+Do các app cài đặt bên ngoài (hoặc bản LC + SS gốc của họ) có cơ chế đóng gói chưa khớp hẳn với luồng hoạt động riêng trên bản LC + SS Mod này, nên để app chạy chuẩn chỉ và ổn định nhất thì anh em chịu khó “cài 2 lần” theo đúng bài này nhé:
 
 Lần 1 (Cài làm vốn): Anh em dùng app ngoài hoặc bản LC + SS hiện có trên máy để cài file IPA bản Mod này vào máy như bình thường.
 
