@@ -72,14 +72,27 @@ Khi bạn khởi động lại máy hoặc Tắt/Bật Chế Độ Nhà Phát Tr
 Nếu bạn đã làm cách trên mà vẫn bị lỗi, có thể file Pairing của bạn đã bị lỗi nhẹ sau các lần cập nhật iOS. Bạn nên cắm vào máy tính và dùng jitterbugpair để tạo lại một file Pairing mới rồi nạp lại vào SideStore.
 
 
+
 5TTT: Fix Lỗi Đăng Nhập Mới Nhất 22/11 (Lỗi 503 Từ Apple)
-Hiện tại, Apple đang quét gắt gao và chặn các máy chủ giả lập mang tên “macOS” (thường báo lỗi HTTP 503 khiến bạn không thể đăng nhập Apple ID trên cả SideStore lẫn SideInstaller). Để vượt qua đợt quét này, cộng đồng đã bổ sung máy chủ mới sử dụng danh tính “Mac OS X” cũ hơn để lách luật.
+Hiện tại, Apple đang quét gắt gao và chặn các máy chủ giả lập mang tên “macOS” (thường báo lỗi HTTP 503 khiến bạn không thể đăng nhập Apple ID trên cả SideStore lẫn SideInstaller). Để vượt qua đợt quét này, cộng đồng đã bổ sung cấu hình máy chủ mới sử dụng danh tính “Mac OS X” cũ hơn để lách luật.
 
-Cách khắc phục:
+PHẦN 1: ĐỐI VỚI SIDESTORE BẢN MOD (GIAO DIỆN TIẾNG VIỆT)
+Bước 1: Mở tab Cài đặt → chọn Máy chủ Anisette → tắt mục Use On-Device Anisette (nếu đang bật) → tại danh sách máy chủ bên dưới, tích chọn Lill q (anisette.lillq.me) hoặc SideStore (New) → nhấn Xong.
+Bước 2: Quay lại Cài đặt → vào Tùy chỉnh giao diện & người dùng → chọn Cấu hình máy khách Anisette.
+Bước 3: Kéo xuống mục ĐỒNG BỘ TỪ MÁY CHỦ ANISETTE (dòng Đồng bộ cấu hình máy chủ) → nhấn nút Tải về → đợi khung thông số mở ra thì nhấn vào nút Áp Dụng Vào Cấu Hình Hiện Tại → kéo lên một chút nhấn tiếp nút Lưu Cấu Hình Tùy Chỉnh.
+Bước 4: Nhấn nút Quay lại (góc trên bên trái) để về màn hình Tùy chỉnh người dùng → nhấn vào dòng Đặt lại dữ liệu adi.pb (chữ màu hồng) → chọn Đặt lại & Đăng xuất.
+Bước 5: Quay lại màn hình chính của tab Cài đặt → nhấn Đăng nhập bằng ID Apple và tiến hành đăng nhập lại tài khoản của bạn.
+Bước 6: Ngay khi đăng nhập xong, ứng dụng sẽ tự động bật bảng thông báo “Đã có chứng chỉ phát triển...” → bạn nhấn chọn Thu hồi chứng chỉ (chữ màu đỏ) ngay trên bảng thông báo đó để hệ thống tự động thu hồi chứng chỉ cũ và tạo chứng chỉ mới (Nếu lỡ bấm Hủy thì bạn mới cần vào mục Quản lý chứng chỉ (Certificate) trong Cài đặt để thu hồi và tạo mới thủ công).
+Bước 7: Chuyển sang tab Ứng dụng → nhấn giữ lâu (Long Press) vào từng ứng dụng trong danh sách → chọn Ký lại chứng chỉ (Resign) cho từng app một để toàn bộ ứng dụng hoạt động bình thường trở lại.
 
-Đối với SideStore:
-Bạn chỉ cần làm y hệt như hướng dẫn ở mục “Hướng Dẫn Fix Login Bản Này“ hoặc “HD Fix Login SideStore Gốc“ ở dưới, nhưng ở bước chọn Máy chủ Anisette, thay vì chọn SideStore (New), bạn hãy tìm và tích chọn máy chủ tên là Lill q (có dòng chữ nhỏ ở dưới là anisette.lillq.me).
-(Đây là cụm máy chủ thông minh, tự động kiểm tra mỗi giờ để chọn ra cấu hình đang được Apple cho phép đi qua).
+PHẦN 2: ĐỐI VỚI SIDESTORE BẢN GỐC (GIAO DIỆN TIẾNG ANH)
+Bước 1: Mở tab Settings → chọn Anisette Servers → tắt Use On-Device Anisette → tích chọn máy chủ Lill q (anisette.lillq.me) hoặc SideStore (New).
+Bước 2: Quay lại Settings → kéo xuống chọn User Customizations → chọn Anisette Client Configuration.
+Bước 3: Kéo xuống mục Sync Server Headers → nhấn nút Fetch (Tải về) → nhấn nút Load into Current Overrides (Áp dụng vào cấu hình hiện tại) → sau đó nhấn nút Save Customizations (Lưu cấu hình tùy chỉnh).
+Bước 4: Quay lại màn hình User Customizations → nhấn chọn Reset adi.pb → xác nhận Reset & Sign Out để đặt lại dữ liệu và đăng xuất.
+Bước 5: Quay ra màn hình chính Settings → nhấn Sign in with Apple ID để đăng nhập lại tài khoản Apple ID.
+Bước 6: Ngay khi đăng nhập xong, một bảng thông báo “Already Has a Development Certificate” sẽ hiện lên → nhấn chọn Revoke Certificate (chữ màu đỏ) ngay trên bảng thông báo để SideStore tự động thu hồi chứng chỉ cũ và cấp lại chứng chỉ mới.
+Bước 7: Sang tab My Apps → nhấn giữ lâu (Long Press) vào từng ứng dụng → chọn Resign (Ký lại) cho từng app trong danh sách là hoàn tất.
 
-Đối với người dùng SideInstaller:
+PHẦN 3: ĐỐI VỚI NGƯỜI DÙNG SIDEINSTALLER
 Bắt buộc phải cập nhật SideInstaller lên phiên bản mới nhất. Bản cập nhật này đã được tích hợp sẵn máy chủ anisette.lillq.me làm mặc định và tự động giả lập về phiên bản Mac OS X 10.15.7, giúp bạn đăng nhập Apple ID mượt mà trở lại mà không còn bị Apple từ chối.
