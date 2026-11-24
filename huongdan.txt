@@ -97,7 +97,7 @@ Bước 7: Sang tab My Apps → nhấn giữ lâu (Long Press) vào từng ứng
 PHẦN 3: ĐỐI VỚI NGƯỜI DÙNG SIDEINSTALLER
 Bắt buộc phải cập nhật SideInstaller lên phiên bản mới nhất. Bản cập nhật này đã được tích hợp sẵn máy chủ anisette.lillq.me làm mặc định và tự động giả lập về phiên bản Mac OS X 10.15.7, giúp bạn đăng nhập Apple ID mượt mà trở lại mà không còn bị Apple từ chối.
 
-6TTT:Update: LC + SS Nightly Gọn nhẹ & Thực dụng
+6TTT:Update: LC + SS Nightly Gọn nhẹ & Thực dụng 23/11
 
 Hế lu All! Mình vừa dọn dẹp và tinh chỉnh lại bản LC + SS Nightly Mod mới để gửi tới cộng đồng. Tình hình các tính năng trong bản này như sau:
 
