@@ -145,3 +145,19 @@ https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/6.png
 https://drive.google.com/file/d/1-8NPevR81y7Cr8WYRzvfXyGCZvY9JxJv/view?usp=drivesdk
 
 
+7TTTUpdate Nhẹ: Kho App Game - Bác Sỹ Hệ Thống
+
+Thêm Tab Kho App Game với số lượng app lớn:
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/7.png
+
+Thêm Bác Sỹ Hệ Thống trong Tab Ứng Dụng
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/8.png
+
+Khám chuyên sâu vào từng phần để đảm bảo mọi thứ hoạt động ok
+(Cần có sẳn 2 phím tắt Bật 4g và Tắt 4g nếu bạn không có Wifi)
+
+https://raw.githubusercontent.com/Nguyenhuyhoan/Test/main/9.png
+
+https://drive.google.com/file/d/1laBi08GNRWFMcXy7mit7H598m6c6WkQ5/view?usp=drivesdk
